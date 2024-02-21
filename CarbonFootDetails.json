@@ -27,7 +27,7 @@
         "description": "PROK1.K3 , is a flexible and light carbon foot , specially designed for patients with a lower extremity Syme's amputation The upper part of the foot features a carbon-fiber plate whereas the toes are composed of two carbon sheets. The foot is suitable with a steel rotatig lamination anchor. PRO1.K3 is available in sizes from 22-29 cm annd provides flex-assist at toeoff and heel. The dynamic energy consumption and minimizes ground reaction force. The hard surface shows extra resistance to stress making it specially suitable for heavy patients during their daily activities. To be used with carbon socks and foot shells for carbon feet. Advice for tecnicians: The static settings must be made very carefully by correctly determinig the connecting points of the lamination adapter."
     },
     {
-        "series": "PRO1.52 - Kule",
+        "series": "PRO1.K5 - Kule",
         "mobilityGrade": "2 , 3",
         "heelHeight": "10 mm",
         "side": "Left(R), Right(R)",
@@ -43,6 +43,24 @@
         "size": "22 23 24 25 26 27 28 29",
         "bodyWeight": "80kgs / 125 kgs",
         "description": "CHOPART PLUS is recommendable in Chopart's amputations. Its rotation feature makes the applications more easy for the technicians. The product set includes Carbon Foot Shell which is recommended to be used with CHOPART Carbon Foot."
+    },
+    {
+        "series": "PRO1.K8 - Syme Plus",
+        "mobilityGrade": "1 , 2",
+        "heelHeight": "6 mm",
+        "side": "Left(R), Right(R)",
+        "size": "22 23 24 25 26 27 28 29",
+        "bodyWeight": "80kgs / 125 kgs",
+        "description": "Sym Plus ,s suitable for Syme's amputees and offers suberb shock absorption at the heel, high energy return and a smooth roll-over. Limited application for fitting of Priogoff amputations and re-amputated Chopart residual limbs. With a clearance of 48 mm , this is the ideal foot for Syme's amputees who require a carbon foot."
+    },
+    {
+        "series": "PRO1.K8 - Syme Plus",
+        "mobilityGrade": "3",
+        "heelHeight": "10 mm",
+        "side": "Left(R), Right(R)",
+        "size": "22 23 24 25 26 27 28 29",
+        "bodyWeight": "80kgs / 125 kgs",
+        "description": "RapidWalk's sperb shock absorption at the heel and its high energy return makes it a perfect choice for active users."
     }
 ]
 
