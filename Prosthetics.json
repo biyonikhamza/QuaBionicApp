@@ -241,6 +241,42 @@
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics, the knee joint ensures excelent stability and comfortable walking for the prosthetic limb user.",
                     "description": "Its adjustable lock secures the knee joint in extension and is released using the lock cable. PRO4.PK.150 offers numerous advantages , not only whilst walking. When sitting or kneeling , the large maximum flexion angle of 110 and the low system height when flexed make it both comfortable and practical. Recommended for transfemoral amputees with mobility grade 1."
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "110 degree",
+                    "weight": "640 gr",
+                    "systemHeight": "81 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "summary": "Single Axis Knee joint with integrated extension aid spring, providing comfortable walking for the prosthetic limb user.",
+                    "description": "PRO4.YS.200 knee joint bends rigidly over a single axis. Although it is clear that they do not resemble the natural anatomy of the knee, these joints are very secure for the user, as they include a brake. This is especially important for uncertain prosthetic leg takes a step and puts weight on the knee joint , the brake comes into action and the knee joint is blocked. Recommended for transfemoral amputees with mobility grade 2."
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "120 degree",
+                    "weight": "710 gr",
+                    "systemHeight": "82 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "summary": "Single Axis Knee Joint with integrated lock mechanism which secures the knee joint in extension , providing stability , comfort and secure walking for the prosthetic limb user.",
+                    "description": "Locking occurs automatically at full extension but can be released using the lock cable. This is especially important for uncertain prosthet,c leg takes a step and puts weight on the knee joint , the brake comes into action and the knee joint is blocked. Recommended for transfemoral amputees with mobility grade 1."
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "110 degree",
+                    "weight": "748 gr",
+                    "systemHeight": "47 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "summary": "Modular Single Axis Knee Joint with adjustable frictional lock. The lock that occurs when the heel is loaded offers excellent stability, whereas its extension ass,st spring ensures comfortable walking for the prosthetic limb user.",
+                    "description": "PRO4.FR.250 Modular Single Axis Knee Joint with Friction is very durable and is easy to maintain and repair. Recommended for transfemoral amputees with mobility grade 2."
                 }
             ]
         }
