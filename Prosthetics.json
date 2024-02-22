@@ -313,6 +313,65 @@
                     "maximumBodyWeight": "65 kgs",
                     "summary": " PRO4.AH.S01 features a pyramid adapter on the top and a tube clamp on the lower part.",
                     "description": " The single axis knee joint is suitable for patients with mobility grade 2 who require a high degree of stability"
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Clamp",
+                    "kneeFlexionAngle": "140 degree",
+                    "weight": "297 gr",
+                    "systemHeight": "41 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "65 kgs",
+                    "summary": "Lightweight single axis modular knee joint (diameter : 25mm) with adjustable lock mechanism.",
+                    "description": "this single axis lightweight knee joint is recommended for patients requiring high stability. The locking pin is engaged and released easily. Furthermore, its light weight makes it comfortable to use."
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Receiver",
+                    "kneeFlexionAngle": "150 degree",
+                    "weight": "611 gr",
+                    "systemHeight": "111 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "100 kgs",
+                    "summary": "Polycentric knee joint with polycentric kinematics , offering comfortable walking for the prosthetic limb user.",
+                    "description": "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics , the knee joints ensures ecelent stability and comfortable walking for the prosthetic limb user. This new polycentric prosthetic knee joint with pneumatic swing phase control offers reliable stance phase security for users with moderate activity levels. Recommended for transfemoral amputees with mobility grade 2."
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Receiver",
+                    "kneeFlexionAngle": "150 degree",
+                    "weight": "600 gr",
+                    "systemHeight": "111 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "100 kgs",
+                    "summary": "Polycentric knee joint with polycentric kinematics, offering comfortable walking for the prosthetic limb user",
+                    "description": "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics, the knee joints ensures excelent stability and comfortable walking for the prosthetic limb user. This new polycentric prosthetic knee joint with pneumatic swing phase control offers reliable stance phase security for users with moderate activity levels. The locking occurs automatically at full extension but can be released using the lock cable. Recommended for transfemoral amputees with mobility grade 1."
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Receiver",
+                    "kneeFlexionAngle": "150 degree",
+                    "weight": "600 gr",
+                    "systemHeight": "111 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "100 kgs",
+                    "summary": "Disarticulation Polycentric Knee Joint with polycentric kinematics and adjustable lock mechanism , offering comfortable walking. Excellent stability and stance fase control for the prosthetic limb user.",
+                    "description": "Comes together with the lamination parts."
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Threaded adapter",
+                    "distalConnection": "Tube Receiver",
+                    "kneeFlexionAngle": "150 degree",
+                    "weight": "729 gr",
+                    "systemHeight": "110 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "100 kgs",
+                    "summary": "Disarticulation Polycentric Knee Joint with polycentric kinematics and adjustable lock mechanism, offering comfortable walking, excellent stability and stance fase control for the prosthetic limb user."
                 }
             ]
         }
