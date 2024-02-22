@@ -277,6 +277,42 @@
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Modular Single Axis Knee Joint with adjustable frictional lock. The lock that occurs when the heel is loaded offers excellent stability, whereas its extension ass,st spring ensures comfortable walking for the prosthetic limb user.",
                     "description": "PRO4.FR.250 Modular Single Axis Knee Joint with Friction is very durable and is easy to maintain and repair. Recommended for transfemoral amputees with mobility grade 2."
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "120 degree",
+                    "weight": "761 gr",
+                    "systemHeight": "80 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "summary": "Disarticulation Knee joint with polycentric kinematics that offers ecellent stability and comfort for the prosthetic limb user.",
+                    "description": "The policentric knee , also referred to as 'fourbar' knee allows stance phase control through its polycentric axis. At the same time it is easy to bend to initiate the swing phase or to sit down. Another important feature of the polycentric knee is that the length of the leg shortens when a step is taken , reducing the risk of stumbling. The Polycentric Knee is suitable for a wide range of patients , including those with mobility grade 2 who cannot walk securely with other types of knees , have a bilateral leg amputation or a long residual limb"
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Lamination anchor",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "110 degree",
+                    "weight": "741 gr",
+                    "systemHeight": "80 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "summary": "Disarticulation Knee joint with lock mechanism and polycentric kinematics that offers excellent stability , safety and comfort for the prosthetic user.",
+                    "description" : "Locking occurs automatically at ful extension but can be released using the lock cable. Recommended for transfemoral amputees with mobility grade 1."
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Clamp",
+                    "kneeFlexionAngle": "140 degree",
+                    "weight": "311 gr",
+                    "systemHeight": "41 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "65 kgs",
+                    "summary": " PRO4.AH.S01 features a pyramid adapter on the top and a tube clamp on the lower part.",
+                    "description": " The single axis knee joint is suitable for patients with mobility grade 2 who require a high degree of stability"
                 }
             ]
         }
