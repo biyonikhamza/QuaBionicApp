@@ -219,7 +219,28 @@
             ],
             "kneeJointsDetails": [
                 {
-                    
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "120 degree",
+                    "weight": "620 gr",
+                    "systemHeight": "81 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "summary" : "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics, the kne joint ensures excelent stability and comfortable walking for the prosthetic limb user.",
+                    "description": "PRO4.PS.150 is a polycentric prothetic knee joint that offers reliable stance phase security for users with moderate activity levels. Recommended for transfemoral amputees with mobility grade 2. Flexion and extension dampening can be separately and individually customised to the needs of the user."
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "110 degree",
+                    "weight": "640 gr",
+                    "systemHeight": "81 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "summary": "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics, the knee joint ensures excelent stability and comfortable walking for the prosthetic limb user.",
+                    "description": "Its adjustable lock secures the knee joint in extension and is released using the lock cable. PRO4.PK.150 offers numerous advantages , not only whilst walking. When sitting or kneeling , the large maximum flexion angle of 110 and the low system height when flexed make it both comfortable and practical. Recommended for transfemoral amputees with mobility grade 1."
                 }
             ]
         }
