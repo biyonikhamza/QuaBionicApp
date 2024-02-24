@@ -409,6 +409,47 @@
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Enjoy walking with PRO4.HS.MO1",
                     "description": "PRO4.HS.MO1 will be available for ordering soon. PRO4.HS.MO1 hydraulic knee joints provide he closest thing to normal knee function for active amputees. PRO4.HS Hydraulic system knee joint uses a liquid medium instead of air to respond to a wide range of walking speeds. PRO3.T1.U34 Adapter tube is included."
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Clamp",
+                    "kneeFlexionAngle": "140 degree",
+                    "weight": "240 gr",
+                    "systemHeight": "42 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "55 kgs",
+                    "summary": "Monocentric knee joint with integrated extension assist. Flexion and extension can be adjusted.",
+                    "description": "Double arm system."
+                }
+            ],
+            "siliconLinearsDetails": [
+                {
+                    "connection": "With distal connection",
+                    "size": "180mm, 200mm, 220mm, 235mm, 250mm, 265mm, 280mm, 300mm, 320mm, 340mm , 360mm , 380mm , 400mm , 420mm , 450mm , 470m ,520mm , 570mm",
+                    "material": "Silicone , hight quality lycra fabric",
+                    "summary": " The high-tech functionality of the antibacterial additive protects the liner against bacteria and therefore against unpleasant odours.",
+                    "description": " Thanks to its high transverse elasticily, the liner adaptss to the shape of the residual limb. The integrated , interior textile matrix prevents elongation and pistoning for superior safety and control. Circumferential strecthing is nt affected. The new , silky and skin-friendly interior effectively reduces friction between the liner and skin , especially in the area of the perineum"
+                },
+                {
+                    "connection": "With distal connection",
+                    "size": "180mm, 200mm, 220mm, 235mm, 250mm, 265mm, 280mm, 300mm, 320mm, 340mm , 360mm , 380mm , 400mm , 420mm , 450mm , 470m ,520mm , 570mm",
+                    "material": "Silicone , hight quality lycra fabric",
+                    "summary": " The high-tech functionality of the antibacterial additive protects the liner against bacteria and therefore against unpleasant odours.",
+                    "description": " Thanks to its high transverse elasticily, the liner adaptss to the shape of the residual limb. The integrated , interior textile matrix prevents elongation and pistoning for superior safety and control. Circumferential strecthing is nt affected. The new , silky and skin-friendly interior effectively reduces friction between the liner and skin , especially in the area of the perineum"
+                },
+                {
+                    "connection": "With distal connection",
+                    "size": "180mm, 200mm, 220mm, 235mm, 250mm, 265mm, 280mm, 300mm, 320mm, 340mm , 360mm , 380mm , 400mm , 420mm , 450mm , 470m ,520mm , 570mm",
+                    "material": "Silicone",
+                    "summary": "FlexLiner is a preflexed , skin-friendly silicone liner with flow characteristics providing good pressure distribution and high shock absorption",
+                    "description": "It is designed specifically for transtibial amputees. Integrated flexion makes it easier to bend the knee."
+                },
+                {
+                    "size": "X-Small , Small Medium Large X-Large",
+                    "Circumference": " 23-31 cm , 25-35 cm , 27-39 cm 30-44 cm , 34-48 cm",
+                    "length": "35 cm",
+                    "summary": "PR.32.DZ silicone sleeve can be used as the primary suspension system or with a valve. It is suitable for users with a low to high activity level. The PR32.DZ also gives the petient freedom of knee flexion while minimizing compression proximally. The sleeve is an anatomically shaped sealing sleeve made froma hard-wearing silicone material with leather."
                 }
             ]
         }
