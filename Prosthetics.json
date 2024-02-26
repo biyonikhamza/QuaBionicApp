@@ -347,8 +347,8 @@
                     "maximumBodyWeight": "65 kgs",
                     "summary": " PRO4.AH.S01 features a pyramid adapter on the top and a tube clamp on the lower part.",
                     "description": " The single axis knee joint is suitable for patients with mobility grade 2 who require a high degree of stability",
-                    "indications1": "Maximum body weight 65 kg.",
-                    "indications2": "During rehabilitation or mobility class 2.",
+                    "indication1": "Maximum body weight 65 kg.",
+                    "indication2": "During rehabilitation or mobility class 2.",
                     "property1": "Knee flexion angle up to 140 degree.",
                     "property2": "Adjustable flexion and extension dampening."
                 },
