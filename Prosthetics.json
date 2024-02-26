@@ -228,7 +228,12 @@
                     "material": "Stainless Steel",
                     "maximumBodyWeight": "100 kgs",
                     "summary" : "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics, the kne joint ensures excelent stability and comfortable walking for the prosthetic limb user.",
-                    "description": "PRO4.PS.150 is a polycentric prothetic knee joint that offers reliable stance phase security for users with moderate activity levels. Recommended for transfemoral amputees with mobility grade 2. Flexion and extension dampening can be separately and individually customised to the needs of the user."
+                    "description": "PRO4.PS.150 is a polycentric prothetic knee joint that offers reliable stance phase security for users with moderate activity levels. Recommended for transfemoral amputees with mobility grade 2. Flexion and extension dampening can be separately and individually customised to the needs of the user.",
+                    "indications1": "Above-knee amputation or knee disarticulation.",
+                    "indications2": "During rehabilition or mobility classes 2",
+                    "indications3": "Maximum body weight 100 kg",
+                    "properties4": "Knee flexion angle up to 120 degree",
+                    "properties5": "Adjustable flexion and extension dampening"
                 },
                 {
                     "mobilityDegree": "1",
@@ -240,19 +245,30 @@
                     "material": "Stainless Steel",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics, the knee joint ensures excelent stability and comfortable walking for the prosthetic limb user.",
-                    "description": "Its adjustable lock secures the knee joint in extension and is released using the lock cable. PRO4.PK.150 offers numerous advantages , not only whilst walking. When sitting or kneeling , the large maximum flexion angle of 110 and the low system height when flexed make it both comfortable and practical. Recommended for transfemoral amputees with mobility grade 1."
+                    "description": "Its adjustable lock secures the knee joint in extension and is released using the lock cable. PRO4.PK.150 offers numerous advantages , not only whilst walking. When sitting or kneeling , the large maximum flexion angle of 110 and the low system height when flexed make it both comfortable and practical. Recommended for transfemoral amputees with mobility grade 1.",
+                    "indications1": " Extension/flexion can be set independently of each other.",
+                    "indications2": "During rehabilitation or mobility classes 1.",
+                    "indications3": " Maximum body weight 100 kg",
+                    "properties4": "Knee flexio angle up to 110 degree",
+                    "properties5": "Adjustable flexion and extension dampening"
                 },
                 {
-                    "mobilityDegree": "1",
+                    "mobilityDegree": "2",
                     "proximalConnection": "Pyramid Adapter",
                     "distalConnection": "Pyramid Adapter",
-                    "kneeFlexionAngle": "110 degree",
-                    "weight": "640 gr",
-                    "systemHeight": "81 mm",
+                    "kneeFlexionAngle": "120 degree",
+                    "weight": "655 gr",
+                    "systemHeight": "82 mm",
                     "material": "Stainless Steel",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Single Axis Knee joint with integrated extension aid spring, providing comfortable walking for the prosthetic limb user.",
-                    "description": "PRO4.YS.200 knee joint bends rigidly over a single axis. Although it is clear that they do not resemble the natural anatomy of the knee, these joints are very secure for the user, as they include a brake. This is especially important for uncertain prosthetic leg takes a step and puts weight on the knee joint , the brake comes into action and the knee joint is blocked. Recommended for transfemoral amputees with mobility grade 2."
+                    "description": "PRO4.YS.200 knee joint bends rigidly over a single axis. Although it is clear that they do not resemble the natural anatomy of the knee, these joints are very secure for the user, as they include a brake. This is especially important for uncertain prosthetic leg takes a step and puts weight on the knee joint , the brake comes into action and the knee joint is blocked. Recommended for transfemoral amputees with mobility grade 2.",
+                    "indications1": "Above-knee amputation.",
+                    "indications2": "During rehabilitation or mobility classes 2.",
+                    "indications3": "Maximum body weight 100 kg.",
+                    "properties4": "Knee flexion angle up to 120 degree.",
+                    "properties5": "Adjustable flexion and extension dampening."
+                    
                 },
                 {
                     "mobilityDegree": "1",
@@ -264,7 +280,11 @@
                     "material": "Stainless Steel",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Single Axis Knee Joint with integrated lock mechanism which secures the knee joint in extension , providing stability , comfort and secure walking for the prosthetic limb user.",
-                    "description": "Locking occurs automatically at full extension but can be released using the lock cable. This is especially important for uncertain prosthet,c leg takes a step and puts weight on the knee joint , the brake comes into action and the knee joint is blocked. Recommended for transfemoral amputees with mobility grade 1."
+                    "description": "Locking occurs automatically at full extension but can be released using the lock cable. This is especially important for uncertain prosthet,c leg takes a step and puts weight on the knee joint , the brake comes into action and the knee joint is blocked. Recommended for transfemoral amputees with mobility grade 1.",
+                    "indications1": "Automatic locking.",
+                    "indications2": "During rehabilitation or mobility classes 1.",
+                    "indications3": "Maximum body weight 100 kg.",
+                    "properties4": "Knee flexion angle up to 120 degree."
                 },
                 {
                     "mobilityDegree": "2",
@@ -276,7 +296,12 @@
                     "material": "Stainless Steel",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Modular Single Axis Knee Joint with adjustable frictional lock. The lock that occurs when the heel is loaded offers excellent stability, whereas its extension ass,st spring ensures comfortable walking for the prosthetic limb user.",
-                    "description": "PRO4.FR.250 Modular Single Axis Knee Joint with Friction is very durable and is easy to maintain and repair. Recommended for transfemoral amputees with mobility grade 2."
+                    "description": "PRO4.FR.250 Modular Single Axis Knee Joint with Friction is very durable and is easy to maintain and repair. Recommended for transfemoral amputees with mobility grade 2.",
+                    "indications1": "Transfemoral amputees.",
+                    "indications2": "During rehabilitation or mobility classes 2.",
+                    "indications3": "Maximum body weight 100 kg.",
+                    "properties4": "Knee flexion angle up to 110 degree.",
+                    "properties5": "Durable and easy to maintain & repair."
                 },
                 {
                     "mobilityDegree": "2",
@@ -288,19 +313,30 @@
                     "material": "Stainless Steel",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Disarticulation Knee joint with polycentric kinematics that offers ecellent stability and comfort for the prosthetic limb user.",
-                    "description": "The policentric knee , also referred to as 'fourbar' knee allows stance phase control through its polycentric axis. At the same time it is easy to bend to initiate the swing phase or to sit down. Another important feature of the polycentric knee is that the length of the leg shortens when a step is taken , reducing the risk of stumbling. The Polycentric Knee is suitable for a wide range of patients , including those with mobility grade 2 who cannot walk securely with other types of knees , have a bilateral leg amputation or a long residual limb"
+                    "description": "The policentric knee , also referred to as 'fourbar' knee allows stance phase control through its polycentric axis. At the same time it is easy to bend to initiate the swing phase or to sit down. Another important feature of the polycentric knee is that the length of the leg shortens when a step is taken , reducing the risk of stumbling. The Polycentric Knee is suitable for a wide range of patients , including those with mobility grade 2 who cannot walk securely with other types of knees , have a bilateral leg amputation or a long residual limb",
+                    "indications1": "Suitable for bilateral leg amputations.",
+                    "indications2": "During rehabilitation or mobility classes 2.",
+                    "indications3": "Maximum body weight 100 kg.",
+                    "properties4": "Knee flexion angle up to 120 degree.",
+                    "properties5": "Easy swing phase",
+                    "properties6": "Flexion and extension adjustment."
                 },
                 {
                     "mobilityDegree": "1",
                     "proximalConnection": "Lamination anchor",
                     "distalConnection": "Pyramid Adapter",
                     "kneeFlexionAngle": "110 degree",
-                    "weight": "741 gr",
+                    "weight": "740 gr",
                     "systemHeight": "80 mm",
                     "material": "Stainless Steel",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Disarticulation Knee joint with lock mechanism and polycentric kinematics that offers excellent stability , safety and comfort for the prosthetic user.",
-                    "description" : "Locking occurs automatically at ful extension but can be released using the lock cable. Recommended for transfemoral amputees with mobility grade 1."
+                    "description" : "Locking occurs automatically at ful extension but can be released using the lock cable. Recommended for transfemoral amputees with mobility grade 1.",
+                    "indications1" : "Above-knee amputation.",
+                    "indications2": "During rehabilitation or mobility classes 1.",
+                    "indications3": "Maximum body weight 100 kg.",
+                    "properties4": "Locked knee.",
+                    "properties5": "Knee flexion angle up to 110 degree."
                 },
                 {
                     "mobilityDegree": "2",
@@ -312,7 +348,11 @@
                     "material": "Alloyed Aluminium",
                     "maximumBodyWeight": "65 kgs",
                     "summary": " PRO4.AH.S01 features a pyramid adapter on the top and a tube clamp on the lower part.",
-                    "description": " The single axis knee joint is suitable for patients with mobility grade 2 who require a high degree of stability"
+                    "description": " The single axis knee joint is suitable for patients with mobility grade 2 who require a high degree of stability",
+                    "indications1": "Maximum body weight 65 kg.",
+                    "indications2": "During rehabilitation or mobility class 2.",
+                    "properties3": "Knee flexion angle up to 140 degree.",
+                    "properties4": "Adjustable flexion and extension dampening."
                 },
                 {
                     "mobilityDegree": "1",
@@ -324,19 +364,29 @@
                     "material": "Alloyed Aluminium",
                     "maximumBodyWeight": "65 kgs",
                     "summary": "Lightweight single axis modular knee joint (diameter : 25mm) with adjustable lock mechanism.",
-                    "description": "this single axis lightweight knee joint is recommended for patients requiring high stability. The locking pin is engaged and released easily. Furthermore, its light weight makes it comfortable to use."
+                    "description": "this single axis lightweight knee joint is recommended for patients requiring high stability. The locking pin is engaged and released easily. Furthermore, its light weight makes it comfortable to use.",
+                    "indications1": "Above-knee amputation.",
+                    "indications2": "During rehabilitation or mobility classes 1.",
+                    "indications3": "Maximum body weight 65 kg.",
+                    "properties4": "High knee flexion angle up to 140 degree.",
+                    "properties5": "Lightweight."
                 },
                 {
                     "mobilityDegree": "2",
                     "proximalConnection": "Pyramid Adapter",
                     "distalConnection": "Tube Receiver",
                     "kneeFlexionAngle": "150 degree",
-                    "weight": "611 gr",
+                    "weight": "600 gr",
                     "systemHeight": "111 mm",
                     "material": "Alloyed Aluminium",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Polycentric knee joint with polycentric kinematics , offering comfortable walking for the prosthetic limb user.",
-                    "description": "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics , the knee joints ensures ecelent stability and comfortable walking for the prosthetic limb user. This new polycentric prosthetic knee joint with pneumatic swing phase control offers reliable stance phase security for users with moderate activity levels. Recommended for transfemoral amputees with mobility grade 2."
+                    "description": "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics , the knee joints ensures ecelent stability and comfortable walking for the prosthetic limb user. This new polycentric prosthetic knee joint with pneumatic swing phase control offers reliable stance phase security for users with moderate activity levels. Recommended for transfemoral amputees with mobility grade 2.",
+                    "indications1": "For transfemoral amputees.",
+                    "indications2": "During rehabilitation or mobility classes 2.",
+                    "indications3": "Maximum body weight 100 kg.",
+                    "properties1": "Knee flexion angle up to 150 degree.",
+                    "properties2": "Excellent stability and duration."
                 },
                 {
                     "mobilityDegree": "1",
@@ -348,7 +398,12 @@
                     "material": "Alloyed Aluminium",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Polycentric knee joint with polycentric kinematics, offering comfortable walking for the prosthetic limb user",
-                    "description": "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics, the knee joints ensures excelent stability and comfortable walking for the prosthetic limb user. This new polycentric prosthetic knee joint with pneumatic swing phase control offers reliable stance phase security for users with moderate activity levels. The locking occurs automatically at full extension but can be released using the lock cable. Recommended for transfemoral amputees with mobility grade 1."
+                    "description": "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics, the knee joints ensures excelent stability and comfortable walking for the prosthetic limb user. This new polycentric prosthetic knee joint with pneumatic swing phase control offers reliable stance phase security for users with moderate activity levels. The locking occurs automatically at full extension but can be released using the lock cable. Recommended for transfemoral amputees with mobility grade 1.",
+                    "indications1": "Above-knee amputation.",
+                    "indications2": "During rehabilitation or mobility classes 1.",
+                    "indications3": "Maximum body weight 100 kg.",
+                    "properties1": "High knee flexion angle up to 150 degree.",
+                    "properties2": "Integrated pivot and shift function"
                 },
                 {
                     "mobilityDegree": "2",
@@ -360,7 +415,12 @@
                     "material": "Alloyed Aluminium",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Disarticulation Polycentric Knee Joint with polycentric kinematics and adjustable lock mechanism , offering comfortable walking. Excellent stability and stance fase control for the prosthetic limb user.",
-                    "description": "Comes together with the lamination parts."
+                    "description": "Comes together with the lamination parts.",
+                    "indications1": "Adjustable lock mechanism",
+                    "indications2": "During rehabilitation or mobility classes 2.",
+                    "indications3": "Maximum body weight 100 kg.",
+                    "properties1": "Knee flexion angle up to 150 degree.",
+                    "properties2": "Excellent stability"
                 },
                 {
                     "mobilityDegree": "1",
@@ -372,7 +432,12 @@
                     "material": "Alloyed Aluminium",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Disarticulation Polycentric Knee Joint with polycentric kinematics and adjustable lock mechanism, offering comfortable walking, excellent stability and stance fase control for the prosthetic limb user.",
-                    "description": " Locking occurs automatically at full extension , but can be released using the lock cable. Recommended for transfemoral amputees with mobility grade 1. Comes together with lamination parts."
+                    "description": " Locking occurs automatically at full extension , but can be released using the lock cable. Recommended for transfemoral amputees with mobility grade 1. Comes together with lamination parts.",
+                    "indications1": "Above-knee amputation.",
+                    "indications2": "During rehabilitation or mobility classes 1.",
+                    "indications3": "Maximum body weight 100 kg.",
+                    "properties1": "Knee flexion angle up to 150 degree.",
+                    "properties2": "Adjustable flexion and extension dampening."
                 },
                 {
                     "mobilityDegree": "3",
@@ -384,7 +449,12 @@
                     "material": "Alloyed Aluminium",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Pneumatic knee joint with adjustable pneumatic extension assist, offering excellent stability and swing phase control.",
-                    "description": "PRO3.T1.U34 Adapter tube is included."
+                    "description": "PRO3.T1.U34 Adapter tube is included.",
+                    "indication1": "Excellent swing phase control.",
+                    "indication2": "During rehabilitation or mobility classes 3.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "properties1": "Knee flexion angle up to 145 degree.",
+                    "properties2": "Adjustable flexion and extension dampening."
                 },
                 {
                     "mobilityDegree": "3",
@@ -396,7 +466,12 @@
                     "material": "Alloyed Aluminium",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Pneumatic knee joint with frictional lock, offering excellent stability and swing phase control through its frictional lock that is automatically released when the heel is loaded.",
-                    "description": "PRO3.T1.U34 Adapter tube is included."
+                    "description": "PRO3.T1.U34 Adapter tube is included.",
+                    "indication1": "Above-knee amputation.",
+                    "indication2": "During rehabilitation or mobility classes 3.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "properties1": "Knee flexion angle up to 145 kg.",
+                    "properties2": "Adjustable flexion and extension dampening."
                 },
                 {
                     "mobilityDegree": "3",
@@ -408,7 +483,12 @@
                     "material": "Alloyed Aluminium",
                     "maximumBodyWeight": "100 kgs",
                     "summary": "Enjoy walking with PRO4.HS.MO1",
-                    "description": "PRO4.HS.MO1 will be available for ordering soon. PRO4.HS.MO1 hydraulic knee joints provide he closest thing to normal knee function for active amputees. PRO4.HS Hydraulic system knee joint uses a liquid medium instead of air to respond to a wide range of walking speeds. PRO3.T1.U34 Adapter tube is included."
+                    "description": "PRO4.HS.MO1 will be available for ordering soon. PRO4.HS.MO1 hydraulic knee joints provide he closest thing to normal knee function for active amputees. PRO4.HS Hydraulic system knee joint uses a liquid medium instead of air to respond to a wide range of walking speeds. PRO3.T1.U34 Adapter tube is included.",
+                    "indication1": "Above-knee amputation.",
+                    "indication2": "During rehabilitation or mobility classes 3.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "properties1": "Knee flexion angle up to 145 degree.",
+                    "properties2": "Adjustable flexion and extension dampening."
                 },
                 {
                     "mobilityDegree": "2",
@@ -420,7 +500,12 @@
                     "material": "Alloyed Aluminium",
                     "maximumBodyWeight": "55 kgs",
                     "summary": "Monocentric knee joint with integrated extension assist. Flexion and extension can be adjusted.",
-                    "description": "Double arm system."
+                    "description": "Double arm system.",
+                    "indication1": "Above-knee amputations.",
+                    "indication2": "During rehabilitation or mobility classes 1.",
+                    "indication3": "Maximum body weight 85 kg.",
+                    "properties1": "Knee flexion angle up to 140 kg.",
+                    "properties2": "Adjustable flexion and extension dampening."
                 }
             ],
             "siliconLinearsDetails": [
