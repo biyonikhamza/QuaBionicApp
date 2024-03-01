@@ -175,7 +175,7 @@
                     "Weight": "400 g 425 g 500 g 540 g 570 g 620 g 690 g 800 g",
                     "maxBodyWeight": "100kgs",
                     "color": "Beige (PRO1.S1) / Dark Brown (PRO1.S2)",
-                    "image": "",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_163323.jpg?token=GHSAT0AAAAAACNXUXVL4DAJE726SLSSGW5OZPB32IQ",
                     "description": "The functional properties are achieved through the combination of a fibreglass-reinforced plastic core and functional foam. SACH(Solid Ankle Cushion Heel) prosthetic feet have different heel heights and foot shapes. They feature a natural shape with a smooth surface , shaped toes."
                 },
                 {
@@ -200,7 +200,7 @@
                     "Weight": "350 g 360 g 380 g 430 g 530 g 570 g 620 g 650 g",
                     "maxBodyWeight": "130kgs",
                     "color": "Beige (PRO1.D1) / Dark Brown (PRO1.D2)",
-                    "image": "",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_163516.jpg?token=GHSAT0AAAAAACNXUXVLI3O3BHY3F74DGCMCZPB3YXA",
                     "description": "The functional properties are achieved through the proven combination of a contoured core and functional foam. The foot distinguishes itself mainly through a comfortable heel impact and easier rollover than the SACH foot. The Dynamic Foot has a natural shape with a smooth surface and split toe cosmesis. It has a proven combination of a contoured core and functional foam."
                 },
                 {  
@@ -224,6 +224,7 @@
                     "Weight": "280 g 290 g 300 g 340 g 370 g 410 g 440 g 460 g",
                     "maxBodyWeight": "100kgs",
                     "color": "Beige (PRO1.P1) / Dark Brown (PRO1.P2)",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_163616.jpg?token=GHSAT0AAAAAACNXUXVLRYXOIPRONVLJ7LNMZPB3YFQ",
                     "description": "The Pirogoff foot is recommended for Pirogoff amputations. It has a cosmetic cover of polyurethane. The pirogoff feet features a natural shape with a smooth surface , shaped toes and a sandal toe. Shaped ankle wedge PRO2.A1.040 is included."
                 }
             ],
@@ -525,7 +526,7 @@
                     "systemHeight": "42 mm",
                     "material": "Alloyed Aluminium",
                     "maximumBodyWeight": "55 kgs",
-                    "image": "",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_163053.jpg?token=GHSAT0AAAAAACNXUXVLPCPGJYE6EOQUYYVSZPB3XGQ",
                     "summary": "Monocentric knee joint with integrated extension assist. Flexion and extension can be adjusted.",
                     "description": "Double arm system.",
                     "indication1": "Above-knee amputations.",
