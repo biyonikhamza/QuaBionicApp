@@ -16,7 +16,7 @@ data class Result(
     @SerializedName("kneeJointsDetails")
     val kneeJointsDetails: @RawValue List<KneeJointsDetail>,
     @SerializedName("siliconLinersDetails")
-    val siliconLinersDetails: @RawValue List<SiliconLinearsDetail>,
+    val siliconLinersDetails: @RawValue List<SiliconLinersDetail>,
     @SerializedName("inspirationWords")
     val inspirationWords: @RawValue List<InspirationWord>
 ) : Parcelable
