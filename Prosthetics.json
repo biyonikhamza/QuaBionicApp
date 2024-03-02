@@ -1,0 +1,646 @@
+{
+    "results": [
+        {
+            "prostheticsInfo": [
+                {
+                    "carbonFoot": "Chopart Carbon Foot",
+                    "prostheticFoot": "Dynamic Foot for Children",
+                    "kneeJoints": "Polycentric Knee Joint",
+                    "siliconeLiners": "FlexComfort Locking Cushion Liner"
+                },
+                {
+                    "carbonFoot": "Doha Carbon Foot",
+                    "prostheticFoot": "Sach Foot",
+                    "kneeJoints": "Polycentric Knee Joint with Lock",
+                    "siliconeLiners": "FlexComfort C Cushion Liner"
+                },
+                {
+                    "carbonFoot": "Syme Carbon Foot",
+                    "prostheticFoot": "Single Axis Foot",
+                    "kneeJoints": "Single Axis Knee Joint",
+                    "siliconeLiners": "FlexLiner Cushion Liner"
+                },
+                {
+                    "carbonFoot": "Kule Carbon Foot",
+                    "prostheticFoot": "Dynamic Foot",
+                    "kneeJoints": "Single Axis Knee Joint with Lock",
+                    "siliconeLiners" : "Silicone Sleeve"
+                },
+                {
+                    "carbonFoot": "Chopart Plus Carbon Foot",
+                    "prostheticFoot": "Syme Foot",
+                    "kneeJoints": "Modular Single Axis Knee Joint with Frictional Lock"
+                },
+                {
+                    "carbonFoot": "Sym Plus Carbon Foot",
+                    "prostheticFoot": "Pirogoff Foot",
+                    "kneeJoints": "Polycentric Disarticulation Knee Joint"
+                },
+                {
+                    "carbonFoot": "Rapidwalk Carbon Foot",
+                    "prostheticFoot": "Single Axis Foot with Shaped Ankle Part",
+                    "kneeJoints": "Polycentric Disarticulation Knee Joint with Lock"
+                },
+                {
+                    "kneeJoints": "Lightweight Knee Joint",
+                    "prostheticFoot": "Dynamic Foot for Children"
+                },
+                {
+                    "kneeJoints": "Lightweight Knee Joint with Lock"
+                },
+                {
+                    "kneeJoints": "Polycentric Knee Joint"   
+                },
+                {
+                    "kneeJoints": "Polycentric Knee Joint with lock"
+                },
+                {
+                    "kneeJoints": "Disarticulation Polycentric Knee Joint"
+                },
+                {
+                    "kneeJoints": "Disarticulation Polycentric Knee Joint with Lock"
+                },
+                {
+                    "kneeJoints": "Pneumatic Knee Joint"
+                },
+                {
+                    "kneeJoints": "Pneumatic Knee Joint with Frictional Lock"
+                },
+                {
+                    "kneeJoints": "Monocentric Knee Joint with Lock"
+                },
+                {
+                    "kneeJoints": "Modular Single Axis Knee Joint for Children"
+                },
+                {
+                    "kneeJoints": "Single Axis Knee Joint for Children"
+                },
+                {
+                    "kneeJoints": "Hydraulic Knee Joint"
+                }   
+            ],
+            "carbonFootDetails": [
+                 {
+                    "series": "PRO1.K1 - Chopart",
+                    "mobilityGrade": "1 , 2",
+                    "heelHeight": "6 mm",
+                    "side": "Left(R), Right(R)",
+                    "size": "22 23 24 25 26 27 28 29",
+                    "bodyWeight": "80kgs / 125 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240227_100621.jpg?token=GHSAT0AAAAAACNXUXVKQQ65OTUX73Z7W7NUZPBZG2Q",
+                    "description": "PRO1.K1 is a flexible and light carbon foot, specially designed for patients with a lawor extremity syme's amputation. The upper part of the foot features a carbon-fiber plate and a split-toe design. The foot is suitable with a steel rotating lamination anchor. PRO1.K1 is available in sizes from 22-29 cm and provides flex-assist at toeoff and heel. The dynamic dorsi-flexion and improved loading response reduce energy consumption and minisizes ground reaction force as such, the heel impact is automatically dampened , giving the patient a soft rollover. As a result , the patient moves more easily and safely. Chopart also actively supports the forward movement, thereby allowing a smooth , natural and dynamic walking. The product comes with carbon socks and shells that do not have to be ordered separately. Advice for technicians: After preparing the Chopart socket , the Chopart carbon foot is stuck to the socket with a prothetic adhesive. Prior to this, the static settings must be made very carefully by correctly determining the connecting points of the lamination anchor."
+                },
+                {
+                    "series": "PRO1.K2 - Doha",
+                    "mobilityGrade": "2 , 3",
+                    "heelHeight": "10 mm",
+                    "side": "Left(R), Right(R)",
+                    "size": "22 23 24 25 26 27 28 29",
+                    "bodyWeight": "80kgs / 125 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240227_100729.jpg?token=GHSAT0AAAAAACNXUXVLY5GQDDKCK2OEHXSCZPBZHAQ",
+                    "description": "Doha Carbon Foot is especially recommended for above , below knee and hip amputation patients who are very active and under 125 kgs. Due to its design, DOHA offers many advantages for daily use for the users with Mobility degree 2 and 3. Nothing stands in the way of sporting activities such as tennis, which subjects the user to greater impact stress. The DOHA also allows for comfortable and energy-saving walking during the daily challenges at work and at home. DOHA's innovative heel design enables the users to perform daily activities ith less energy consumption by stroing the energy expended during activities and this reduces foot fatique compared with conventional designs."
+                 },
+                 {
+                    "series": "PRO1.K3 - Syme",
+                    "mobilityGrade": "1 , 2",
+                    "heelHeight": "6 mm",
+                    "side": "Left(R), Right(R)",
+                    "size": "22 23 24 25 26 27 28 29",
+                    "bodyWeight": "80kgs / 125 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240227_100859.jpg?token=GHSAT0AAAAAACNXUXVKULBBPHHTKTI5XFCSZPBZHNA",
+                    "description": "PROK1.K3 , is a flexible and light carbon foot , specially designed for patients with a lower extremity Syme's amputation The upper part of the foot features a carbon-fiber plate whereas the toes are composed of two carbon sheets. The foot is suitable with a steel rotatig lamination anchor. PRO1.K3 is available in sizes from 22-29 cm annd provides flex-assist at toeoff and heel. The dynamic energy consumption and minimizes ground reaction force. The hard surface shows extra resistance to stress making it specially suitable for heavy patients during their daily activities. To be used with carbon socks and foot shells for carbon feet. Advice for tecnicians: The static settings must be made very carefully by correctly determinig the connecting points of the lamination adapter."
+                },
+                {
+                    "series": "PRO1.K5 - Kule",
+                    "mobilityGrade": "2 , 3",
+                    "heelHeight": "10 mm",
+                    "side": "Left(R), Right(R)",
+                    "size": "16 17 18 19 20 21 22 23 24 25 26 27 28 29",
+                    "bodyWeight": "80kgs / 125 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240227_101014.jpg?token=GHSAT0AAAAAACNXUXVLUNZZKHH76D5HWVNYZPBZHRA",
+                    "description": "KULE Carbon Foot is especially recommended for above , below knee and hip amputation patients who are very active and under 125 kgs. KULE's innovative heel design enables the users to perform daily activities with less energy consumption by storing the energy be expended during activities and this reduces foot fatique compared with conventional designs."
+                },
+                {
+                    "series": "PRO1.K7 - Chopart Plus",
+                    "mobilityGrade": "1 , 2",
+                    "heelHeight": "6 mm",
+                    "side": "Left(R), Right(R)",
+                    "size": "22 23 24 25 26 27 28 29",
+                    "bodyWeight": "80kgs / 125 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240227_101234.jpg?token=GHSAT0AAAAAACNXUXVK2CDKRSV7KFMTMDCOZPBZJNQ",
+                    "description": "CHOPART PLUS is recommendable in Chopart's amputations. Its rotation feature makes the applications more easy for the technicians. The product set includes Carbon Foot Shell which is recommended to be used with CHOPART Carbon Foot."
+                },
+                {
+                    "series": "PRO1.K8 - Syme Plus",
+                    "mobilityGrade": "1 , 2",
+                    "heelHeight": "6 mm",
+                    "side": "Left(R), Right(R)",
+                    "size": "22 23 24 25 26 27 28 29",
+                    "bodyWeight": "80kgs / 125 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240227_101343.jpg?token=GHSAT0AAAAAACNXUXVKI2XMETELLFVS6O3QZPBZKYQ",
+                    "description": "Sym Plus ,s suitable for Syme's amputees and offers suberb shock absorption at the heel, high energy return and a smooth roll-over. Limited application for fitting of Priogoff amputations and re-amputated Chopart residual limbs. With a clearance of 48 mm , this is the ideal foot for Syme's amputees who require a carbon foot."
+                },
+                {
+                    "series": "PRO1.K8 - Syme Plus",
+                    "mobilityGrade": "3",
+                    "heelHeight": "10 mm",
+                    "side": "Left(R), Right(R)",
+                    "size": "22 23 24 25 26 27 28 29",
+                    "bodyWeight": "80kgs / 125 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240227_102034.jpg?token=GHSAT0AAAAAACNXUXVLR52VICYAQGKKXE3UZPBZLQA",
+                    "description": "RapidWalk's sperb shock absorption at the heel and its high energy return makes it a perfect choice for active users."
+                }
+            ],
+            "prostheticFootDetails": [
+                {
+                    "serie": "PRO1.C - Dynamic Foot for Children",
+                    "mobilityGrade": "1, 2",
+                    "heelHight": "10 mm",
+                    "side": "Left (L) , Right(R)",
+                    "size": "14 15 16 17 18 19 20 21",
+                    "systemHight": "44 mm 46 mm 48 mm 50 mm 52 mm 54 mm 56 mm 58 mm",
+                    "Weight": "110 g 130 g 150 g 170 g 190 g 220 g 250 g 280 g",
+                    "maxBodyWeight": "55kgs",
+                    "color": "Beige (PRO1.C1) / Dark Brown (PRO1.C2)",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240227_102628.jpg?token=GHSAT0AAAAAACNXUXVLTIVAL6WR4L4FJM34ZPBZM6A",
+                    "description": "The functional properties are achieved through the proven combination of a contoured core and functional foam. The foot distinguishes itself mainly through a comfortable heel impact and pleasant walking for prosthetic limb users thanks to its heel flexibility and energy stocking characteristics. The Dynamic Foot has a natural shape with a smooth surface and a split-toe design. It has proven combination of contoured core and functional foam. Size 14 and 15 for children are without toes."
+                },
+                {
+                    "serie": "PRO1.S - Sach Foot",
+                    "mobilityGrade": "1, 2",
+                    "heelHight": "10 mm",
+                    "side": "Left (L) , Right(R)",
+                    "size": "22 23 24 25 26 27 28 29",
+                    "systemHight": "65 mm 70 mm 72 mm 76 mm 78 mm 79 mm 80 mm 80 mm",
+                    "Weight": "400 g 425 g 500 g 540 g 570 g 620 g 690 g 800 g",
+                    "maxBodyWeight": "100kgs",
+                    "color": "Beige (PRO1.S1) / Dark Brown (PRO1.S2)",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_163323.jpg?token=GHSAT0AAAAAACNXUXVL4DAJE726SLSSGW5OZPB32IQ",
+                    "description": "The functional properties are achieved through the combination of a fibreglass-reinforced plastic core and functional foam. SACH(Solid Ankle Cushion Heel) prosthetic feet have different heel heights and foot shapes. They feature a natural shape with a smooth surface , shaped toes."
+                },
+                {
+                    "serie": "PRO1.H - Single Axis Foot",
+                    "mobilityGrade": "2 , 3",
+                    "heelHight": "10 mm",
+                    "side": "Left (L) , Right(R)",
+                    "size": "22 23 24 25 26 27 28 29",
+                    "Weight": "325 g 350 g 390 g 410 g 460 g 510 g 540 g 560 g",
+                    "maxBodyWeight": "100kgs",
+                    "color": "Beige (PRO1.H1) / Dark Brown (PRO1.H2)",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240227_102804.jpg?token=GHSAT0AAAAAACNXUXVLMSOAQD2WWRRYHK3CZPBZNWA",
+                    "description": "The single-axis feet are well-suited for low-activity people with transformoral amputations. The feet are designed to help patients quickly and securely reach foot-flat. It has a natural shape, smooth surface and formed toes. The signle-axis foot i rated to be used up to a maximum weight of 125 kilograms and different sizes are available."
+                },
+                {   
+                    "serie": "PRO1.D - Dynamic Foot",
+                    "mobilityGrade": "2 , 3",
+                    "heelHight": "10 mm",
+                    "side": "Left (L) , Right(R)",
+                    "size": "22 23 24 25 26 27 28 29",
+                    "systemHight": "64 mm 65 mm 71 mm 72 mm 74 mm 76 mm 77 mm",
+                    "Weight": "350 g 360 g 380 g 430 g 530 g 570 g 620 g 650 g",
+                    "maxBodyWeight": "130kgs",
+                    "color": "Beige (PRO1.D1) / Dark Brown (PRO1.D2)",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_163516.jpg?token=GHSAT0AAAAAACNXUXVLI3O3BHY3F74DGCMCZPB3YXA",
+                    "description": "The functional properties are achieved through the proven combination of a contoured core and functional foam. The foot distinguishes itself mainly through a comfortable heel impact and easier rollover than the SACH foot. The Dynamic Foot has a natural shape with a smooth surface and split toe cosmesis. It has a proven combination of a contoured core and functional foam."
+                },
+                {  
+                    "serie": "PRO1.S - Syme Foot",
+                    "mobilityGrade": "1 , 2",
+                    "heelHight": "10 mm",
+                    "side": "Left (L) , Right(R)",
+                    "size": "22 23 24 25 26 27 28 29",
+                    "Weight": "380 g 400 g 460 g 500 g 540 g 600 g 650 g 700 g",
+                    "maxBodyWeight": "100kgs",
+                    "color": "Beige (PRO1.SM) / Dark Brown (PRO1.S3)",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240227_102932.jpg?token=GHSAT0AAAAAACNXUXVKBJQVE37CRDK42I4YZPBZRBA",
+                    "description": "Due to its innovative design and high-quality materials such as PU , the SYME prosthesis foot offers many advantages for daily use. The SYME foot is rated to be used up to a maximum weight of 125 kilograms."
+                },
+                {
+                    "serie": "PRO1.P - Pirogoff Foot",
+                    "mobilityGrade": "1 , 2",
+                    "heelHight": "10 mm",
+                    "side": "Left (L) , Right(R)",
+                    "size": "22 23 24 25 26 27 28 29",
+                    "Weight": "280 g 290 g 300 g 340 g 370 g 410 g 440 g 460 g",
+                    "maxBodyWeight": "100kgs",
+                    "color": "Beige (PRO1.P1) / Dark Brown (PRO1.P2)",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_163616.jpg?token=GHSAT0AAAAAACNXUXVLRYXOIPRONVLJ7LNMZPB3YFQ",
+                    "description": "The Pirogoff foot is recommended for Pirogoff amputations. It has a cosmetic cover of polyurethane. The pirogoff feet features a natural shape with a smooth surface , shaped toes and a sandal toe. Shaped ankle wedge PRO2.A1.040 is included."
+                }
+            ],
+            "kneeJointsDetails": [
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "120 degree",
+                    "weight": "620 gr",
+                    "systemHeight": "81 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240227_103254.jpg?token=GHSAT0AAAAAACNXUXVK36EMTXYGRJJBXSJOZPBZS5A",
+                    "summary" : "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics, the kne joint ensures excelent stability and comfortable walking for the prosthetic limb user.",
+                    "description": "PRO4.PS.150 is a polycentric prothetic knee joint that offers reliable stance phase security for users with moderate activity levels. Recommended for transfemoral amputees with mobility grade 2. Flexion and extension dampening can be separately and individually customised to the needs of the user.",
+                    "indication1": "Above-knee amputation or knee disarticulation.",
+                    "indication2": "During rehabilition or mobility classes 2",
+                    "indication3": "Maximum body weight 100 kg",
+                    "property1": "Knee flexion angle up to 120 degree",
+                    "property2": "Adjustable flexion and extension dampening"
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "110 degree",
+                    "weight": "640 gr",
+                    "systemHeight": "81 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240227_103402.jpg?token=GHSAT0AAAAAACNXUXVKTUK6DK5PTIWQKMH2ZPBZTUA",
+                    "summary": "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics, the knee joint ensures excelent stability and comfortable walking for the prosthetic limb user.",
+                    "description": "Its adjustable lock secures the knee joint in extension and is released using the lock cable. PRO4.PK.150 offers numerous advantages , not only whilst walking. When sitting or kneeling , the large maximum flexion angle of 110 and the low system height when flexed make it both comfortable and practical. Recommended for transfemoral amputees with mobility grade 1.",
+                    "indication1": " Extension/flexion can be set independently of each other.",
+                    "indication2": "During rehabilitation or mobility classes 1.",
+                    "indication3": " Maximum body weight 100 kg",
+                    "property1": "Knee flexio angle up to 110 degree",
+                    "property2": "Adjustable flexion and extension dampening"
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "120 degree",
+                    "weight": "655 gr",
+                    "systemHeight": "82 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_092445.jpg?token=GHSAT0AAAAAACNXUXVKQQV7XURAJ6NPV36AZPBZUXQ",
+                    "summary": "Single Axis Knee joint with integrated extension aid spring, providing comfortable walking for the prosthetic limb user.",
+                    "description": "PRO4.YS.200 knee joint bends rigidly over a single axis. Although it is clear that they do not resemble the natural anatomy of the knee, these joints are very secure for the user, as they include a brake. This is especially important for uncertain prosthetic leg takes a step and puts weight on the knee joint , the brake comes into action and the knee joint is blocked. Recommended for transfemoral amputees with mobility grade 2.",
+                    "indication1": "Above-knee amputation.",
+                    "indication2": "During rehabilitation or mobility classes 2.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "property1": "Knee flexion angle up to 120 degree.",
+                    "property2": "Adjustable flexion and extension dampening."
+                    
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "120 degree",
+                    "weight": "710 gr",
+                    "systemHeight": "82 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_092545.jpg?token=GHSAT0AAAAAACNXUXVK3FN6K4YMOPGPPJDKZPBZVEA",
+                    "summary": "Single Axis Knee Joint with integrated lock mechanism which secures the knee joint in extension , providing stability , comfort and secure walking for the prosthetic limb user.",
+                    "description": "Locking occurs automatically at full extension but can be released using the lock cable. This is especially important for uncertain prosthet,c leg takes a step and puts weight on the knee joint , the brake comes into action and the knee joint is blocked. Recommended for transfemoral amputees with mobility grade 1.",
+                    "indication1": "Automatic locking.",
+                    "indication2": "During rehabilitation or mobility classes 1.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "property1": "Knee flexion angle up to 120 degree."
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "110 degree",
+                    "weight": "748 gr",
+                    "systemHeight": "47 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_092706.jpg?token=GHSAT0AAAAAACNXUXVKD44QAASHGMMDWUKAZPBZWIQ",
+                    "summary": "Modular Single Axis Knee Joint with adjustable frictional lock. The lock that occurs when the heel is loaded offers excellent stability, whereas its extension ass,st spring ensures comfortable walking for the prosthetic limb user.",
+                    "description": "PRO4.FR.250 Modular Single Axis Knee Joint with Friction is very durable and is easy to maintain and repair. Recommended for transfemoral amputees with mobility grade 2.",
+                    "indication1": "Transfemoral amputees.",
+                    "indication2": "During rehabilitation or mobility classes 2.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "property1": "Knee flexion angle up to 110 degree.",
+                    "property2": "Durable and easy to maintain & repair."
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "120 degree",
+                    "weight": "761 gr",
+                    "systemHeight": "80 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_092830.jpg?token=GHSAT0AAAAAACNXUXVK3C2DBK5KFZR2UEBGZPBZW5Q",
+                    "summary": "Disarticulation Knee joint with polycentric kinematics that offers ecellent stability and comfort for the prosthetic limb user.",
+                    "description": "The policentric knee , also referred to as 'fourbar' knee allows stance phase control through its polycentric axis. At the same time it is easy to bend to initiate the swing phase or to sit down. Another important feature of the polycentric knee is that the length of the leg shortens when a step is taken , reducing the risk of stumbling. The Polycentric Knee is suitable for a wide range of patients , including those with mobility grade 2 who cannot walk securely with other types of knees , have a bilateral leg amputation or a long residual limb",
+                    "indication1": "Suitable for bilateral leg amputations.",
+                    "indication2": "During rehabilitation or mobility classes 2.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "property1": "Knee flexion angle up to 120 degree.",
+                    "property2": "Easy swing phase",
+                    "property3": "Flexion and extension adjustment."
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Lamination anchor",
+                    "distalConnection": "Pyramid Adapter",
+                    "kneeFlexionAngle": "110 degree",
+                    "weight": "740 gr",
+                    "systemHeight": "80 mm",
+                    "material": "Stainless Steel",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_093008.jpg?token=GHSAT0AAAAAACNXUXVKBFCQR7SCDPRAAHGYZPBZXUQ",
+                    "summary": "Disarticulation Knee joint with lock mechanism and polycentric kinematics that offers excellent stability , safety and comfort for the prosthetic user.",
+                    "description" : "Locking occurs automatically at ful extension but can be released using the lock cable. Recommended for transfemoral amputees with mobility grade 1.",
+                    "indication1" : "Above-knee amputation.",
+                    "indication2": "During rehabilitation or mobility classes 1.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "property1": "Locked knee.",
+                    "property2": "Knee flexion angle up to 110 degree."
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Clamp",
+                    "kneeFlexionAngle": "140 degree",
+                    "weight": "311 gr",
+                    "systemHeight": "41 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "65 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_093124.jpg?token=GHSAT0AAAAAACNXUXVKHG4JKSZVSVSHZF2WZPBZYJA",
+                    "summary": " PRO4.AH.S01 features a pyramid adapter on the top and a tube clamp on the lower part.",
+                    "description": " The single axis knee joint is suitable for patients with mobility grade 2 who require a high degree of stability",
+                    "indication1": "Maximum body weight 65 kg.",
+                    "indication2": "During rehabilitation or mobility class 2.",
+                    "property1": "Knee flexion angle up to 140 degree.",
+                    "property2": "Adjustable flexion and extension dampening."
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Clamp",
+                    "kneeFlexionAngle": "140 degree",
+                    "weight": "297 gr",
+                    "systemHeight": "41 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "65 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_093245.jpg?token=GHSAT0AAAAAACNXUXVLYKODSB5ZOE4QEOZSZPBZY2A",
+                    "summary": "Lightweight single axis modular knee joint (diameter : 25mm) with adjustable lock mechanism.",
+                    "description": "this single axis lightweight knee joint is recommended for patients requiring high stability. The locking pin is engaged and released easily. Furthermore, its light weight makes it comfortable to use.",
+                    "indication1": "Above-knee amputation.",
+                    "indication2": "During rehabilitation or mobility classes 1.",
+                    "indication3": "Maximum body weight 65 kg.",
+                    "property1": "High knee flexion angle up to 140 degree.",
+                    "property2": "Lightweight."
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Receiver",
+                    "kneeFlexionAngle": "150 degree",
+                    "weight": "600 gr",
+                    "systemHeight": "111 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_093428.jpg?token=GHSAT0AAAAAACNXUXVK5AGH76GJIWVKKU2MZPBZZVA",
+                    "summary": "Polycentric knee joint with polycentric kinematics , offering comfortable walking for the prosthetic limb user.",
+                    "description": "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics , the knee joints ensures ecelent stability and comfortable walking for the prosthetic limb user. This new polycentric prosthetic knee joint with pneumatic swing phase control offers reliable stance phase security for users with moderate activity levels. Recommended for transfemoral amputees with mobility grade 2.",
+                    "indication1": "For transfemoral amputees.",
+                    "indication2": "During rehabilitation or mobility classes 2.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "property1": "Knee flexion angle up to 150 degree.",
+                    "property2": "Excellent stability and duration."
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Receiver",
+                    "kneeFlexionAngle": "150 degree",
+                    "weight": "600 gr",
+                    "systemHeight": "111 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_093428.jpg?token=GHSAT0AAAAAACNXUXVK5AGH76GJIWVKKU2MZPBZZVA",
+                    "summary": "Polycentric knee joint with polycentric kinematics, offering comfortable walking for the prosthetic limb user",
+                    "description": "Polycentric knee joint with integrated extension assist. Thanks to its polycentric kinematics, the knee joints ensures excelent stability and comfortable walking for the prosthetic limb user. This new polycentric prosthetic knee joint with pneumatic swing phase control offers reliable stance phase security for users with moderate activity levels. The locking occurs automatically at full extension but can be released using the lock cable. Recommended for transfemoral amputees with mobility grade 1.",
+                    "indication1": "Above-knee amputation.",
+                    "indication2": "During rehabilitation or mobility classes 1.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "property1": "High knee flexion angle up to 150 degree.",
+                    "property2": "Integrated pivot and shift function"
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Threaded Adapter",
+                    "distalConnection": "Tube Receiver",
+                    "kneeFlexionAngle": "150 degree",
+                    "weight": "729 gr",
+                    "systemHeight": "110 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_093428.jpg?token=GHSAT0AAAAAACNXUXVK5AGH76GJIWVKKU2MZPBZZVA",
+                    "summary": "Disarticulation Polycentric Knee Joint with polycentric kinematics and adjustable lock mechanism , offering comfortable walking. Excellent stability and stance fase control for the prosthetic limb user.",
+                    "description": "Comes together with the lamination parts.",
+                    "indication1": "Adjustable lock mechanism",
+                    "indication2": "During rehabilitation or mobility classes 2.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "property1": "Knee flexion angle up to 150 degree.",
+                    "property2": "Excellent stability"
+                },
+                {
+                    "mobilityDegree": "1",
+                    "proximalConnection": "Threaded Adapter",
+                    "distalConnection": "Tube Receiver",
+                    "kneeFlexionAngle": "150 degree",
+                    "weight": "731 gr",
+                    "systemHeight": "110 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_093649.jpg?token=GHSAT0AAAAAACNXUXVLI6F57Q4GUO3TS65EZPBZ4FA",
+                    "summary": "Disarticulation Polycentric Knee Joint with polycentric kinematics and adjustable lock mechanism, offering comfortable walking, excellent stability and stance fase control for the prosthetic limb user.",
+                    "description": " Locking occurs automatically at full extension , but can be released using the lock cable. Recommended for transfemoral amputees with mobility grade 1. Comes together with lamination parts.",
+                    "indication1": "Above-knee amputation.",
+                    "indication2": "During rehabilitation or mobility classes 1.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "property1": "Knee flexion angle up to 150 degree.",
+                    "property2": "Adjustable flexion and extension dampening."
+                },
+                {
+                    "mobilityDegree": "3",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Receiver",
+                    "kneeFlexionAngle": "145 degree",
+                    "weight": "725 gr",
+                    "systemHeight": "153 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_093847.jpg?token=GHSAT0AAAAAACNXUXVK5UQLTSZLNDBPXKRUZPBZ5PQ",
+                    "summary": "Pneumatic knee joint with adjustable pneumatic extension assist, offering excellent stability and swing phase control.",
+                    "description": "PRO3.T1.U34 Adapter tube is included.",
+                    "indication1": "Excellent swing phase control.",
+                    "indication2": "During rehabilitation or mobility classes 3.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "property1": "Knee flexion angle up to 145 degree.",
+                    "property2": "Adjustable flexion and extension dampening."
+                },
+                {
+                    "mobilityDegree": "3",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Receiver",
+                    "kneeFlexionAngle": "145 degree",
+                    "weight": "757 gr",
+                    "systemHeight": "153 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_094059.jpg?token=GHSAT0AAAAAACNXUXVLYQWUNEZMZQCWUIYOZPBZ62A",
+                    "summary": "Pneumatic knee joint with frictional lock, offering excellent stability and swing phase control through its frictional lock that is automatically released when the heel is loaded.",
+                    "description": "PRO3.T1.U34 Adapter tube is included.",
+                    "indication1": "Above-knee amputation.",
+                    "indication2": "During rehabilitation or mobility classes 3.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "property1": "Knee flexion angle up to 145 kg.",
+                    "property2": "Adjustable flexion and extension dampening."
+                },
+                {
+                    "mobilityDegree": "3",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Receiver",
+                    "kneeFlexionAngle": "135 degree",
+                    "weight": "884 gr",
+                    "systemHeight": "180 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "100 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_094210.jpg?token=GHSAT0AAAAAACNXUXVKMHYTSW4XFBJXH6OKZPBZ7WA",
+                    "summary": "Enjoy walking with PRO4.HS.MO1",
+                    "description": "PRO4.HS.MO1 will be available for ordering soon. PRO4.HS.MO1 hydraulic knee joints provide he closest thing to normal knee function for active amputees. PRO4.HS Hydraulic system knee joint uses a liquid medium instead of air to respond to a wide range of walking speeds. PRO3.T1.U34 Adapter tube is included.",
+                    "indication1": "Above-knee amputation.",
+                    "indication2": "During rehabilitation or mobility classes 3.",
+                    "indication3": "Maximum body weight 100 kg.",
+                    "property1": "Knee flexion angle up to 145 degree.",
+                    "property2": "Adjustable flexion and extension dampening."
+                },
+                {
+                    "mobilityDegree": "2",
+                    "proximalConnection": "Pyramid Adapter",
+                    "distalConnection": "Tube Clamp",
+                    "kneeFlexionAngle": "140 degree",
+                    "weight": "240 gr",
+                    "systemHeight": "42 mm",
+                    "material": "Alloyed Aluminium",
+                    "maximumBodyWeight": "55 kgs",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_163053.jpg?token=GHSAT0AAAAAACNXUXVLPCPGJYE6EOQUYYVSZPB3XGQ",
+                    "summary": "Monocentric knee joint with integrated extension assist. Flexion and extension can be adjusted.",
+                    "description": "Double arm system.",
+                    "indication1": "Above-knee amputations.",
+                    "indication2": "During rehabilitation or mobility classes 1.",
+                    "indication3": "Maximum body weight 85 kg.",
+                    "property1": "Knee flexion angle up to 140 kg.",
+                    "property2": "Adjustable flexion and extension dampening."
+                }
+            ],
+            "siliconLinersDetails": [
+                {
+                    "connection": "With distal connection",
+                    "size": "180mm, 200mm, 220mm, 235mm, 250mm, 265mm, 280mm, 300mm, 320mm, 340mm , 360mm , 380mm , 400mm , 420mm , 450mm , 470m ,520mm , 570mm",
+                    "material": "Silicone , hight quality lycra fabric",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_094448.jpg?token=GHSAT0AAAAAACNXUXVL7AYVTRP74FUJ7DOAZPB2AZA",
+                    "summary": " The high-tech functionality of the antibacterial additive protects the liner against bacteria and therefore against unpleasant odours.",
+                    "description": " Thanks to its high transverse elasticily, the liner adaptss to the shape of the residual limb. The integrated , interior textile matrix prevents elongation and pistoning for superior safety and control. Circumferential strecthing is nt affected. The new , silky and skin-friendly interior effectively reduces friction between the liner and skin , especially in the area of the perineum",
+                    "property1": "Excellent adherence of the liner on the skin.",
+                    "property2": "Superior Durability",
+                    "property3": "Excellent control of the prosthesis",
+                    "property4": "Resistence to ageing, strecthing and abrasion",
+                    "property5": "Streilized at high temperature",
+                    "property6": "For active and very active patients"
+                },
+                {
+                    "connection": "Without distal connection",
+                    "size": "180mm, 200mm, 220mm, 235mm, 250mm, 265mm, 280mm, 300mm, 320mm, 340mm , 360mm , 380mm , 400mm , 420mm , 450mm , 470m ,520mm , 570mm",
+                    "material": "Silicone , hight quality lycra fabric",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_094606.jpg?token=GHSAT0AAAAAACNXUXVLRMBX5537PFYR4CMIZPB2CQQ",
+                    "summary": " The high-tech functionality of the antibacterial additive protects the liner against bacteria and therefore against unpleasant odours.",
+                    "description": " Thanks to its high transverse elasticily, the liner adaptss to the shape of the residual limb. The integrated , interior textile matrix prevents elongation and pistoning for superior safety and control. Circumferential strecthing is nt affected. The new , silky and skin-friendly interior effectively reduces friction between the liner and skin , especially in the area of the perineum",
+                    "property1": "Excellent adherence of the liner on the skin",
+                    "property2": "Superior Durability",
+                    "property3": "Excellent control of the prosthesis",
+                    "property4": "Resistance to ageing, strecthing and abrasion",
+                    "property5": "Sterilized at hight temperature",
+                    "property6": "For active and very active patients"
+                },
+                {
+                    "connection": "With distal connection",
+                    "size": "180mm, 200mm, 220mm, 235mm, 250mm, 265mm, 280mm, 300mm, 320mm, 340mm , 360mm , 380mm , 400mm , 420mm , 450mm , 470m ,520mm , 570mm",
+                    "material": "Silicone",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_094726.jpg?token=GHSAT0AAAAAACNXUXVKW5BAFC4FE3MCR6ACZPB2DUA",
+                    "summary": "FlexLiner is a preflexed , skin-friendly silicone liner with flow characteristics providing good pressure distribution and high shock absorption",
+                    "description": "It is designed specifically for transtibial amputees. Integrated flexion makes it easier to bend the knee.",
+                    "property1": "Excellent adherence of the liner on the skin",
+                    "property2": "Superior Durability",
+                    "property3": "Excelent control of the prosthesis",
+                    "property4": "Resistence to ageing strecthing and abrasion",
+                    "property5": "Sterilized at high temperature",
+                    "property6": "For active and very active patients"
+                },
+                {
+                    "size": "X-Small , Small Medium Large X-Large",
+                    "Circumference": " 23-31 cm , 25-35 cm , 27-39 cm 30-44 cm , 34-48 cm",
+                    "length": "35 cm",
+                    "image": "https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/Part2/images/IMG_20240301_094830.jpg?token=GHSAT0AAAAAACNXUXVLJVQCG5KM37TKDAO6ZPB2EYA",
+                    "summary": "PR.32.DZ silicone sleeve can be used as the primary suspension system or with a valve. It is suitable for users with a low to high activity level.",
+                    "description": "The PR32.DZ also gives the petient freedom of knee flexion while minimizing compression proximally. The sleeve is an anatomically shaped sealing sleeve made froma hard-wearing silicone material with leather.",
+                    "property1": "Achieves a secure suspension",
+                    "property2": "No circulation restriction",
+                    "property3": "Water proof",
+                    "property4": "Custom sizes available",
+                    "property5": "Sterilized at high temperature",
+                    "property6": "Easy-clean surface"
+                }
+            ],
+            "inspirationWords": [
+                {
+                    "word": "Yaşayan ölür , ölen fena bulur. Ne olacaksa olur."
+                },
+                {
+                    "word": "Sevginin olduğu yerde , Allah (c.c) vardır ve Allah'ın (c.c) sevgisinin olduğu yerde mutluluk vardır."
+                },
+                {
+                    "word": "Bir şey yapabilirsen , iman edene her şey olanaklıdır."
+                },
+                {
+                    "word": "İnanın , inanın ki inanç dağları yerinden oynatsın."
+                },
+                {
+                    "word": "Hayat, hayata herşeyini veren bir kişiden kendisini eirgemez."
+                },
+                {
+                    "word": "Kalbinizi gitmek istediğiniz ve olmak istediğiniz yerle doldurun."
+                },
+                {
+                    "word": "Çubuğun üstüne kalbini at , vücudun seni izleyecektir."
+                },
+                {
+                    "word": "Kendine güvenen iyimser ve işini başarı garantisiyle üstlenen bir adam , durumunu cazip hale getirir. Evrenin yapıcı güclerini kendi üstüne çeker."
+                },
+                {
+                    "word": "Allah'a (c.c) iman edin. Size doğrusunu söyleyeyim , kim şu dağa kalk, denize atıl derse ve dediğinin olacağına inanırsa dileği yerine gelecektir."
+                },
+                {
+                    "word": "Oyunun cesaret kırıcı değişikliklerinde bile hiçbir zaman yılmamak."
+                },
+                {
+                    "word": "Dünyaya ne yapmak istediğinizi söyleyin , ama önce yapın."
+                },
+                {
+                    "word": "En önemli şeyler sözcükler değil , eylemlerdir."
+                },
+                {
+                    "word": "Zihnin bizim ona tanıdıklarımız dışında hiçbir sınırlaması yoktur."
+                },
+                {
+                    "word": "Herhangi bir duygunun heyecanıyla birleştirilen düşünceler , diğer benzeri veya ilintili düşünceleri çeken 'Mıknatıslı' bir güç oluşturur."
+                },
+                {
+                    "word": "Eğitimli insan zihinsel becerilerini , başkalarının haklarını ihlal etmeden istediği her şeyi alabilecek şekilde geliştiren insandır."
+                }
+            ]
+        }
+    ]
+}
