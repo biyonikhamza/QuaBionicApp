@@ -23,7 +23,7 @@ interface ProstheticsDAO {
     suspend fun insertFavoriteProsthetics(favoriteEntity: FavoriteEntity)
 
     @Query("SELECT * FROM prosthetics_table ORDER BY id ASC")
-    fun readProsthetic() : Flow<List<ProstheticsEntity>>
+    fun readProsthetics() : Flow<List<ProstheticsEntity>>
 
     @Query("SELECT * FROM inspiration_table ORDER BY id ASC")
     fun readInspiration() : Flow<List<InspirationEntity>>

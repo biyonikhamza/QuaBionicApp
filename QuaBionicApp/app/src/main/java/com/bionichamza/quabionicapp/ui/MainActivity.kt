@@ -1,4 +1,4 @@
-package com.bionichamza.quabionicapp
+package com.bionichamza.quabionicapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
