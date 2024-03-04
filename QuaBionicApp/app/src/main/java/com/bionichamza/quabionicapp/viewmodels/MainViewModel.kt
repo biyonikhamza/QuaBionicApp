@@ -59,7 +59,7 @@ class MainViewModel @Inject constructor(
     /** Retrofit Process */
 
     var prostheticsResponse : MutableLiveData<NetworkResult<Prosthetics>> = MutableLiveData()
-    var searchProstheticsResponse : MutableLiveData<NetworkResult<Prosthetics>> = MutableLiveData()
+    var searchedProstheticsResponse : MutableLiveData<NetworkResult<Prosthetics>> = MutableLiveData()
     var inspirationResponse : MutableLiveData<NetworkResult<InspirationWord>> = MutableLiveData()
 
     fun getProsthetics(queries : Map<String , String>) = viewModelScope.launch {
@@ -67,11 +67,11 @@ class MainViewModel @Inject constructor(
     }
 
     fun searchProsthetics(searchQuery : Map<String , String>) = viewModelScope.launch {
-        // TODO: Wait safe call function please.
+        searchProstheticsSafeCall(searchQuery)
     }
 
     fun getInspiration(apiKey : String) = viewModelScope.launch {
-        // TODO: Wait safe call function please.
+        getInspirationSafeCall(apiKey)
     }
 
     private suspend fun getProstheticsSafeCall(queries : Map<String , String>) {
@@ -90,6 +90,39 @@ class MainViewModel @Inject constructor(
             }
         }else {
             prostheticsResponse.value = NetworkResult.Error("No Internet Connection!")
+        }
+    }
+
+    private suspend fun searchProstheticsSafeCall(searchQuery : Map<String, String>) {
+        searchedProstheticsResponse.value = NetworkResult.Loading()
+        if (hasInternetConnection()) {
+            try {
+                val response = repository.remote.searchProsthetics(searchQuery)
+                searchedProstheticsResponse.value = handleProstheticsResponse(response)
+            }catch (e : Exception) {
+                searchedProstheticsResponse.value = NetworkResult.Error("Prosthetics not found!")
+            }
+        } else {
+            searchedProstheticsResponse.value = NetworkResult.Error("No Internet Connection!")
+        }
+    }
+
+    private suspend fun getInspirationSafeCall(apiKey : String) {
+        inspirationResponse.value = NetworkResult.Loading()
+        if (hasInternetConnection()){
+            try {
+                val response = repository.remote.getInspiration(apiKey)
+                inspirationResponse.value = handleInspirationResponse(response)
+
+                val inspiration = inspirationResponse.value!!.data
+                if (inspiration != null) {
+                    offlineCacheInspiration(inspiration)
+                }
+            }catch (e : Exception) {
+                inspirationResponse.value = NetworkResult.Error("Inspiration not found")
+            }
+        }else {
+            inspirationResponse.value = NetworkResult.Error("No Internet Connection")
         }
     }
 
@@ -120,6 +153,24 @@ class MainViewModel @Inject constructor(
             }
             else -> {
                 return NetworkResult.Error(response.message())
+            }
+        }
+    }
+
+    private fun handleInspirationResponse(response: Response<InspirationWord>) : NetworkResult<InspirationWord> {
+        return when {
+            response.message().toString().contains("timeout") -> {
+                NetworkResult.Error("Timeout")
+            }
+            response.code() == 402 -> {
+                NetworkResult.Error("API key limited")
+            }
+            response.isSuccessful -> {
+                val inspirationWord = response.body()
+                NetworkResult.Success(inspirationWord!!)
+            }
+            else -> {
+                NetworkResult.Error(response.message())
             }
         }
     }

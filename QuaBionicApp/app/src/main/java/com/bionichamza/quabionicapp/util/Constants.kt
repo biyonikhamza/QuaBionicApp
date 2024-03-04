@@ -10,5 +10,8 @@ class Constants {
         const val PROSTHETICS_TABLE = "prosthetics_table"
         const val INSPIRATION_TABLE = "inspiration_table"
         const val FAVORITE_TABLE = "favorite_table"
+
+        const val PREFERENCES_NAME = "prosthetic_preferences"
+        const val PREFERENCES_BACK_ONLINE = "backOnline"
     }
 }
