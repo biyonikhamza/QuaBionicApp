@@ -42,6 +42,4 @@ class LocalDataSource @Inject constructor(
     suspend fun deleteAllFavoriteProsthetics() {
         prostheticDao.deleteAllFavoriteProsthetic()
     }
-
-
 }
