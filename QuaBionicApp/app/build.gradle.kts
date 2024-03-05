@@ -84,6 +84,8 @@ dependencies {
     // Room Components
     implementation("androidx.room:room-runtime:$room_version")
     kapt("androidx.room:room-compiler:2.6.1")
+    implementation("androidx.room:room-ktx:2.6.1")
+
 
     // Dagger - Hilt
     implementation("com.google.dagger:hilt-android:2.50")

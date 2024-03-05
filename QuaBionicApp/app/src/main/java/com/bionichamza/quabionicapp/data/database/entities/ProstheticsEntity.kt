@@ -7,7 +7,7 @@ import com.bionichamza.quabionicapp.util.Constants.Companion.PROSTHETICS_TABLE
 
 @Entity(tableName = PROSTHETICS_TABLE)
 class ProstheticsEntity(
-    var prosthetics: Prosthetics
+    var prosthetics : Prosthetics
 ) {
     @PrimaryKey(autoGenerate = true)
     var id : Int = 0
