@@ -23,7 +23,7 @@ interface ProstheticsAPI {
     suspend fun searchProsthetics(
         @QueryMap searchQuery: Map<String , String>
     ) : Response<Prosthetics>
-
+    
     @GET("/biyonikhamza/QuaBionicApp/main/Prosthetics.json")
     suspend fun getInspiration(
         @Query("token") token: JsonToken
