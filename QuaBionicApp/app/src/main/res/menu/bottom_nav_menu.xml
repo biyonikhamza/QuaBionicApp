@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeBioFragment"
+        android:title="@string/homebio_fragment"
+        android:icon="@drawable/ic_homebio"/>
+
+    <item
+        android:id="@+id/favoriteBioFragment"
+        android:title="@string/favoritebio_fragment"
+        android:icon="@drawable/ic_favorite"/>
+
+    <item
+        android:id="@+id/issuePageBioFragment"
+        android:title="@string/issuepagebio_fragment"
+        android:icon="@drawable/ic_issue"/>
+
+    <item
+        android:id="@+id/inspirationFragment"
+        android:title="@string/inspiration_fragment"
+        android:icon="@drawable/ic_inspiration"/>
+
+
+    <item
+        android:id="@+id/profileBioFragment"
+        android:title="@string/profilebio_fragment"
+        android:icon="@drawable/ic_profilebio"/>
+
+</menu>

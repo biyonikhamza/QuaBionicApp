@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeBioFragment">
+
+    <fragment
+        android:id="@+id/homeBioFragment"
+        android:name="com.bionichamza.quabionicapp.ui.fragments.homebio.HomeBioFragment"
+        android:label="fragment_home_pros"
+        tools:layout="@layout/fragment_home_pros" />
+    <fragment
+        android:id="@+id/favoriteBioFragment"
+        android:name="com.bionichamza.quabionicapp.ui.fragments.favoritebio.FavoriteBioFragment"
+        android:label="fragment_favorite_bio"
+        tools:layout="@layout/fragment_favorite_bio" />
+    <fragment
+        android:id="@+id/issuePageBioFragment"
+        android:name="com.bionichamza.quabionicapp.ui.fragments.issuepagebio.IssuePageBioFragment"
+        android:label="fragment_issue_page_bio"
+        tools:layout="@layout/fragment_issue_page_bio" />
+    <fragment
+        android:id="@+id/inspirationFragment"
+        android:name="com.bionichamza.quabionicapp.ui.fragments.inspiration.InspirationFragment"
+        android:label="fragment_inspiration"
+        tools:layout="@layout/fragment_inspiration" />
+    <fragment
+        android:id="@+id/profileBioFragment"
+        android:name="com.bionichamza.quabionicapp.ui.fragments.profile.ProfileBioFragment"
+        android:label="fragment_profile_bio"
+        tools:layout="@layout/fragment_profile_bio" />
+</navigation>

@@ -1,5 +1,6 @@
 package com.bionichamza.quabionicapp.data
 
+import android.util.JsonToken
 import com.bionichamza.quabionicapp.data.network.ProstheticsAPI
 import com.bionichamza.quabionicapp.models.InspirationWord
 import com.bionichamza.quabionicapp.models.Prosthetics
@@ -18,8 +19,8 @@ class RemoteDataSource @Inject constructor(
         return prostheticsAPI.searchProsthetics(searchQuery)
     }
 
-    suspend fun getInspiration(apiKey : String) : Response<InspirationWord> {
-        return prostheticsAPI.getInspiration(apiKey)
+    suspend fun getInspiration(token: JsonToken) : Response<InspirationWord> {
+        return prostheticsAPI.getInspiration(token)
     }
 
 }

@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">QuaBionic App</string>
+    <string name="app_name">QuaBionic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homebio_fragment">Home Bio</string>
+    <string name="inspiration_fragment">Inspiration</string>
+    <string name="favoritebio_fragment">Favorite</string>
+    <string name="issuepagebio_fragment">Issue Bio</string>
+    <string name="profilebio_fragment">Profile Bio</string>
+
+    <string name="search">Search</string>
 </resources>

@@ -4,6 +4,7 @@ import android.app.Application
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
+import android.util.JsonToken
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.*
 import com.bionichamza.quabionicapp.data.Repository
@@ -70,8 +71,8 @@ class MainViewModel @Inject constructor(
         searchProstheticsSafeCall(searchQuery)
     }
 
-    fun getInspiration(apiKey : String) = viewModelScope.launch {
-        getInspirationSafeCall(apiKey)
+    fun getInspiration(token: JsonToken) = viewModelScope.launch {
+        getInspirationSafeCall(token)
     }
 
     private suspend fun getProstheticsSafeCall(queries : Map<String , String>) {
@@ -107,11 +108,11 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    private suspend fun getInspirationSafeCall(apiKey : String) {
+    private suspend fun getInspirationSafeCall(token: JsonToken) {
         inspirationResponse.value = NetworkResult.Loading()
         if (hasInternetConnection()){
             try {
-                val response = repository.remote.getInspiration(apiKey)
+                val response = repository.remote.getInspiration(token)
                 inspirationResponse.value = handleInspirationResponse(response)
 
                 val inspiration = inspirationResponse.value!!.data
