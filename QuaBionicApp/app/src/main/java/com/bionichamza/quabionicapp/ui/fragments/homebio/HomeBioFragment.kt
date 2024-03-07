@@ -35,6 +35,9 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
 
     private var dataRequested = false
 
+    var sayi1 = 10
+    var sayi2 = 20
+
     private var _binding : FragmentHomeProsBinding? = null
     private val binding get() = _binding!!
 
@@ -56,6 +59,9 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentHomeProsBinding.inflate(inflater , container , false)
+
+        var toplam = sayi1 + sayi2
+        println(binding)
 
         binding.lifecycleOwner = this
         binding.mainViewModel = mainViewModel
@@ -119,7 +125,7 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
             mainViewModel.readProsthetics.observeOnce(viewLifecycleOwner) { database->
                 if (database.isNotEmpty() && dataRequested) {
                     Log.d("HomeProsFragment" , "readDatabase called")
-                    mAdapter.setData(database[0])
+                    //mAdapter.setData(database[0])
                     showProgressBar()
                 }
                 else{
@@ -140,7 +146,7 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
             when(response) {
                 is NetworkResult.Success -> {
                     showProgressBar()
-                    response.data?.let { mAdapter.setData(it) }
+                    //response.data?.let { mAdapter.setData(it) }
                 }
                 is NetworkResult.Error -> {
                     showProgressBar()
@@ -165,7 +171,7 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
                 is NetworkResult.Success -> {
                     showProgressBar()
                     val prosthetics = response.data
-                    prosthetics?.let { mAdapter.setData(it) }
+                    //prosthetics?.let { mAdapter.setData(it) }
                 }
                 is NetworkResult.Error -> {
                     showProgressBar()
@@ -187,7 +193,7 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
         lifecycleScope.launch {
             mainViewModel.readProsthetics.observe(viewLifecycleOwner) { database ->
                 if (database.isNotEmpty()) {
-                    mAdapter.setData(database[0].prosthetics)
+                    //mAdapter.setData(database[0].prosthetics)
                 }
             }
         }

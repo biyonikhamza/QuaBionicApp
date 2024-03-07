@@ -18,7 +18,9 @@ class ProfileBioFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentProfileBioBinding.inflate(inflater , container,false)
+
         return binding.root
+
     }
 
     override fun onDestroyView() {

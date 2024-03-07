@@ -1,8 +1,10 @@
 package com.bionichamza.quabionicapp.models
 
-import com.google.gson.annotations.SerializedName
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+import kotlinx.parcelize.RawValue
 
-class ProstheticsInfoResult(
-    @SerializedName("prostheticsInfoResults")
-    val prostheticsInfoResults : List<ProstheticsInfo>
-)
+@Parcelize
+data class ProstheticsInfoResult(
+    val prostheticsInfo: @RawValue List<ProstheticsInfoS>
+) : Parcelable
