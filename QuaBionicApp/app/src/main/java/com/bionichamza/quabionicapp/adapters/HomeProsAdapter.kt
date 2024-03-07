@@ -8,7 +8,6 @@ import com.bionichamza.quabionicapp.models.Prosthetics
 import com.bionichamza.quabionicapp.models.ProstheticsInfo
 import com.bionichamza.quabionicapp.models.ProstheticsInfoResult
 import com.example.quabionicapp.databinding.HomeProsRowLayoutBinding
-import com.bionichamza.quabionicapp.models.Result
 import com.bionichamza.quabionicapp.util.ProstheticsDiffUtil
 
 class HomeProsAdapter : RecyclerView.Adapter<HomeProsAdapter.HomeProsViewHolder>() {
@@ -45,7 +44,7 @@ class HomeProsAdapter : RecyclerView.Adapter<HomeProsAdapter.HomeProsViewHolder>
         return prosthetics.size
     }
 
-    fun setData(newData : ProstheticsInfoResult) {
+    fun setData(newData: ProstheticsInfoResult) {
         val prostheticsDiffUtil = ProstheticsDiffUtil(prosthetics, newData.prostheticsInfoResults)
         val diffUtilResult = DiffUtil.calculateDiff(prostheticsDiffUtil)
         prosthetics = newData.prostheticsInfoResults

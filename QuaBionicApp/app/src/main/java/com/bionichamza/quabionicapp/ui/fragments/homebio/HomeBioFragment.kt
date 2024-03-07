@@ -119,7 +119,7 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
             mainViewModel.readProsthetics.observeOnce(viewLifecycleOwner) { database->
                 if (database.isNotEmpty() && dataRequested) {
                     Log.d("HomeProsFragment" , "readDatabase called")
-                    mAdapter.setData(database[0].prosthetics)
+                    mAdapter.setData(database[0])
                     showProgressBar()
                 }
                 else{
