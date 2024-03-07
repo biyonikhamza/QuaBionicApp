@@ -114,6 +114,9 @@ dependencies {
 
     // Coordinator Layout
     implementation("androidx.coordinatorlayout:coordinatorlayout:1.2.0")
+
+    // Sdp
+    implementation("com.intuit.sdp:sdp-android:1.1.0")
 }
 kapt {
     correctErrorTypes = true

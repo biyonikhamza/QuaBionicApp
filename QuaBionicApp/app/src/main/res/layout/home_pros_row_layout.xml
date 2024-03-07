@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="result"
+            type="com.bionichamza.quabionicapp.models.ProstheticsInfo"/>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/homeProsRowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp">
+        
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/home_pros_row_cardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_15sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="@color/strokeColor"
+            app:strokeWidth="@dimen/_5sdp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/home_pros_imageView"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="0dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:srcCompat="@tools:sample/avatars"/>
+
+                <TextView
+                    android:id="@+id/home_pros_textView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/home_pros_imageView"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="@{result.kneeJoints}"
+                    />
+
+                <TextView
+                    android:id="@+id/home_pros_textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:ellipsize="end"
+                    app:layout_constraintEnd_toEndOf="@id/home_pros_textView"
+                    app:layout_constraintStart_toStartOf="@+id/home_pros_textView"
+                    app:layout_constraintTop_toBottomOf="@+id/home_pros_textView"
+                    android:text="@{result.carbonFoot}"/>
+                
+                <TextView
+                    android:id="@+id/home_pros_textView3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    app:layout_constraintEnd_toEndOf="@id/home_pros_textView2"
+                    app:layout_constraintStart_toStartOf="@id/home_pros_textView2"
+                    app:layout_constraintTop_toBottomOf="@id/home_pros_textView2"
+                    android:text="@{result.prostheticFoot}"/>
+
+                <TextView
+                    android:id="@+id/home_pros_textView4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    app:layout_constraintEnd_toEndOf="@id/home_pros_textView3"
+                    app:layout_constraintStart_toStartOf="@id/home_pros_textView3"
+                    app:layout_constraintTop_toBottomOf="@id/home_pros_textView3"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="@{result.siliconeLiners}"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

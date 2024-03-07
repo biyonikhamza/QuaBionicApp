@@ -1,5 +1,6 @@
 {
-    "results": [
+    
+    "prostheticsInfoResults": [
         {
             "prostheticsInfo": [
                 {
@@ -77,8 +78,13 @@
                 },
                 {
                     "kneeJoints": "Hydraulic Knee Joint"
-                }   
-            ],
+                } 
+        }
+    ]
+        }
+    ],
+    "results": [
+        {  
             "carbonFootDetails": [
                  {
                     "series": "PRO1.K1 - Chopart",

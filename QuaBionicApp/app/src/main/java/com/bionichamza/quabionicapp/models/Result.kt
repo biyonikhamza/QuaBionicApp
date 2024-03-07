@@ -7,8 +7,6 @@ import kotlinx.parcelize.RawValue
 
 @Parcelize
 data class Result(
-    @SerializedName("prostheticsInfo")
-    val prostheticsInfo: @RawValue List<ProstheticsInfo>,
     @SerializedName("prostheticFootDetails")
     val prostheticFootDetails: @RawValue List<ProstheticFootDetail>,
     @SerializedName("carbonFootDetails")
