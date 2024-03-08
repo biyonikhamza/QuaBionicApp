@@ -66,8 +66,9 @@ class MainViewModel @Inject constructor(
 
     /** Retrofit Process */
 
-    val prostheticsInfoResponse : MutableLiveData<NetworkResult<ProstheticsInfo>> = MutableLiveData()
+    var prostheticsInfoResponse : MutableLiveData<NetworkResult<ProstheticsInfo>> = MutableLiveData()
     var prostheticsResponse : MutableLiveData<NetworkResult<Prosthetics>> = MutableLiveData()
+    var searchedProstheticsInfoResponse : MutableLiveData<NetworkResult<ProstheticsInfo>> = MutableLiveData()
     var searchedProstheticsResponse : MutableLiveData<NetworkResult<Prosthetics>> = MutableLiveData()
     var inspirationResponse : MutableLiveData<NetworkResult<InspirationWord>> = MutableLiveData()
 
@@ -76,6 +77,10 @@ class MainViewModel @Inject constructor(
     }
     fun getProsthetics(queries : Map<String , String>) = viewModelScope.launch {
         getProstheticsSafeCall(queries)
+    }
+
+    fun searchProstheticsInfo(searchQuery : Map<String , String>) = viewModelScope.launch {
+        searchProstheticsInfoSafeCall(searchQuery)
     }
 
     fun searchProsthetics(searchQuery : Map<String , String>) = viewModelScope.launch {
@@ -120,6 +125,20 @@ class MainViewModel @Inject constructor(
             }
         }else {
             prostheticsResponse.value = NetworkResult.Error("No Internet Connection!")
+        }
+    }
+
+    private suspend fun searchProstheticsInfoSafeCall(searchQuery: Map<String, String>) {
+        searchedProstheticsInfoResponse.value = NetworkResult.Loading()
+        if (hasInternetConnection()) {
+            try {
+                val response = repository.remote.searchProstheticsInfo(searchQuery)
+                searchedProstheticsInfoResponse.value = handleProstheticsInfoResponse(response)
+            }catch (e : Exception) {
+                searchedProstheticsInfoResponse.value = NetworkResult.Error("Prosthetics not found")
+            }
+        } else {
+            searchedProstheticsInfoResponse.value = NetworkResult.Error("No Internet Connection")
         }
     }
 

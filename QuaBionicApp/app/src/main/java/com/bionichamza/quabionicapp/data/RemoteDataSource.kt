@@ -19,6 +19,10 @@ class RemoteDataSource @Inject constructor(
         return prostheticsAPI.getProsthetics(queries)
     }
 
+    suspend fun searchProstheticsInfo(searchQuery: Map<String, String>) : Response<ProstheticsInfo> {
+        return prostheticsAPI.getProstheticsInfo(searchQuery)
+    }
+
     suspend fun searchProsthetics(searchQuery : Map<String , String>) : Response<Prosthetics> {
         return prostheticsAPI.searchProsthetics(searchQuery)
     }

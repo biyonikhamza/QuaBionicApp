@@ -133,10 +133,10 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
     private fun requestApiData() {
         Log.d("ProstheticsFragment" ,"requestApiCalled")
         mainViewModel.getProstheticsInfo(prostheticsViewModel.applyQueries())
-        mainViewModel.prostheticsResponse.observe(viewLifecycleOwner) { response ->
+        mainViewModel.prostheticsInfoResponse.observe(viewLifecycleOwner) { response ->
             when(response) {
                 is NetworkResult.Success -> {
-                    //response.data?.let { mAdapter.setData(it) }
+                    response.data?.let { mAdapter.setData(it) }
                 }
                 is NetworkResult.Error -> {
                     Toast.makeText(
@@ -152,11 +152,11 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
 
     private fun searchApiData(searchQuery : String){
         mainViewModel.searchProsthetics(prostheticsViewModel.applySearchQuery(searchQuery))
-        mainViewModel.searchedProstheticsResponse.observe(viewLifecycleOwner) { response ->
+        mainViewModel.searchedProstheticsInfoResponse.observe(viewLifecycleOwner) { response ->
             when(response) {
                 is NetworkResult.Success -> {
                     val prosthetics = response.data
-                    //prosthetics?.let { mAdapter.setData(it) }
+                    prosthetics?.let { mAdapter.setData(it) }
                 }
                 is NetworkResult.Error -> {
                     loadDataFromCache()
