@@ -13,7 +13,6 @@ import android.widget.SearchView
 import android.widget.Toast
 import androidx.core.view.MenuHost
 import androidx.core.view.MenuProvider
-import androidx.core.view.isVisible
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
@@ -101,7 +100,6 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
     private fun setupRecyclerView(){
         binding.recyclerViewHomeBio.adapter = mAdapter
         binding.recyclerViewHomeBio.layoutManager = LinearLayoutManager(requireContext())
-        showProgressBar()
     }
     override fun onQueryTextSubmit(query: String?): Boolean {
         if (query != null) {
@@ -116,11 +114,10 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
 
     private fun readDatabase(){
         lifecycleScope.launch {
-            mainViewModel.readProsthetics.observeOnce(viewLifecycleOwner) { database->
+            mainViewModel.readProstheticsInfo.observeOnce(viewLifecycleOwner) { database->
                 if (database.isNotEmpty() && dataRequested) {
                     Log.d("HomeProsFragment" , "readDatabase called")
-                    mAdapter.setData(database[0])
-                    showProgressBar()
+                    mAdapter.setData(database[0].prostheticsInfo)
                 }
                 else{
                     Log.d("HomeProsFragment" , "requestApi called")
@@ -135,40 +132,33 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
 
     private fun requestApiData() {
         Log.d("ProstheticsFragment" ,"requestApiCalled")
-        mainViewModel.getProsthetics(prostheticsViewModel.applyQueries())
+        mainViewModel.getProstheticsInfo(prostheticsViewModel.applyQueries())
         mainViewModel.prostheticsResponse.observe(viewLifecycleOwner) { response ->
             when(response) {
                 is NetworkResult.Success -> {
-                    showProgressBar()
-                    response.data?.let { mAdapter.setData(it) }
+                    //response.data?.let { mAdapter.setData(it) }
                 }
                 is NetworkResult.Error -> {
-                    showProgressBar()
                     Toast.makeText(
                         requireContext(),
                         response.message.toString(),
                         Toast.LENGTH_LONG
                     ).show()
                 }
-                is NetworkResult.Loading -> {
-                    showProgressBar()
-                }
+                is NetworkResult.Loading -> {}
             }
         }
     }
 
     private fun searchApiData(searchQuery : String){
-        showProgressBar()
         mainViewModel.searchProsthetics(prostheticsViewModel.applySearchQuery(searchQuery))
         mainViewModel.searchedProstheticsResponse.observe(viewLifecycleOwner) { response ->
             when(response) {
                 is NetworkResult.Success -> {
-                    showProgressBar()
                     val prosthetics = response.data
-                    prosthetics?.let { mAdapter.setData(it) }
+                    //prosthetics?.let { mAdapter.setData(it) }
                 }
                 is NetworkResult.Error -> {
-                    showProgressBar()
                     loadDataFromCache()
                     Toast.makeText(
                         requireContext(),
@@ -176,26 +166,21 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
                         Toast.LENGTH_LONG
                     ).show()
                 }
-                is NetworkResult.Loading -> {
-                    showProgressBar()
-                }
+                is NetworkResult.Loading -> {}
             }
         }
     }
 
     private fun loadDataFromCache() {
         lifecycleScope.launch {
-            mainViewModel.readProsthetics.observe(viewLifecycleOwner) { database ->
+            mainViewModel.readProstheticsInfo.observe(viewLifecycleOwner) { database ->
                 if (database.isNotEmpty()) {
-                    mAdapter.setData(database[0].prosthetics)
+                    mAdapter.setData(database[0].prostheticsInfo)
                 }
             }
         }
     }
 
-    private fun showProgressBar(){
-        binding.homeProsProgressBar.isVisible = true
-    }
     override fun onDestroy() {
         super.onDestroy()
         _binding = null

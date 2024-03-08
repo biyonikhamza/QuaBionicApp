@@ -4,6 +4,7 @@ import com.bionichamza.quabionicapp.data.database.ProstheticsDAO
 import com.bionichamza.quabionicapp.data.database.entities.FavoriteEntity
 import com.bionichamza.quabionicapp.data.database.entities.InspirationEntity
 import com.bionichamza.quabionicapp.data.database.entities.ProstheticsEntity
+import com.bionichamza.quabionicapp.data.database.entities.ProstheticsInfoEntity
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
@@ -11,6 +12,9 @@ class LocalDataSource @Inject constructor(
     private val prostheticDao : ProstheticsDAO
 ) {
 
+    fun readProstheticsInfo() : Flow<List<ProstheticsInfoEntity>> {
+        return prostheticDao.readProstheticsInfo()
+    }
     fun readProsthetics() : Flow<List<ProstheticsEntity>> {
         return prostheticDao.readProsthetics()
     }
@@ -23,6 +27,9 @@ class LocalDataSource @Inject constructor(
         return prostheticDao.readInspiration()
     }
 
+    suspend fun insertProstheticsInfo(prostheticsInfoEntity: ProstheticsInfoEntity) {
+        prostheticDao.insertProstheticsInfo(prostheticsInfoEntity)
+    }
     suspend fun insertProsthetics(prostheticsEntity : ProstheticsEntity) {
         prostheticDao.insertProsthetics(prostheticsEntity)
     }

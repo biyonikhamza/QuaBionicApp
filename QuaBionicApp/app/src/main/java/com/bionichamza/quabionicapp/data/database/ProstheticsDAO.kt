@@ -8,10 +8,15 @@ import androidx.room.Query
 import com.bionichamza.quabionicapp.data.database.entities.FavoriteEntity
 import com.bionichamza.quabionicapp.data.database.entities.InspirationEntity
 import com.bionichamza.quabionicapp.data.database.entities.ProstheticsEntity
+import com.bionichamza.quabionicapp.data.database.entities.ProstheticsInfoEntity
+import com.bionichamza.quabionicapp.models.ProstheticsInfo
 import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface ProstheticsDAO {
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertProstheticsInfo(prostheticsInfoEntity: ProstheticsInfoEntity)
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertProsthetics(prostheticsEntity: ProstheticsEntity)
@@ -21,6 +26,9 @@ interface ProstheticsDAO {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertFavoriteProsthetics(favoriteEntity: FavoriteEntity)
+
+    @Query("SELECT * FROM prosthetics_info_table ORDER BY id ASC")
+    fun readProstheticsInfo() : Flow<List<ProstheticsInfoEntity>>
 
     @Query("SELECT * FROM prosthetics_table ORDER BY id ASC")
     fun readProsthetics() : Flow<List<ProstheticsEntity>>
