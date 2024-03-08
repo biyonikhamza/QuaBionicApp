@@ -117,7 +117,7 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
             mainViewModel.readProstheticsInfo.observeOnce(viewLifecycleOwner) { database->
                 if (database.isNotEmpty() && dataRequested) {
                     Log.d("HomeProsFragment" , "readDatabase called")
-                    mAdapter.setData(database[0].prostheticsInfo)
+                    mAdapter.prostheticsListUpdate(database[0].prostheticsInfo)
                 }
                 else{
                     Log.d("HomeProsFragment" , "requestApi called")
@@ -136,12 +136,12 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
         mainViewModel.prostheticsInfoResponse.observe(viewLifecycleOwner) { response ->
             when(response) {
                 is NetworkResult.Success -> {
-                    response.data?.let { mAdapter.setData(it) }
+                    response.data?.let { mAdapter.prostheticsListUpdate(it) }
                 }
                 is NetworkResult.Error -> {
                     Toast.makeText(
                         requireContext(),
-                        response.message.toString(),
+                        "VerilerGelmedi",
                         Toast.LENGTH_LONG
                     ).show()
                 }
@@ -156,7 +156,7 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
             when(response) {
                 is NetworkResult.Success -> {
                     val prosthetics = response.data
-                    prosthetics?.let { mAdapter.setData(it) }
+                    prosthetics?.let { mAdapter.prostheticsListUpdate(it) }
                 }
                 is NetworkResult.Error -> {
                     loadDataFromCache()
@@ -175,7 +175,7 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
         lifecycleScope.launch {
             mainViewModel.readProstheticsInfo.observe(viewLifecycleOwner) { database ->
                 if (database.isNotEmpty()) {
-                    mAdapter.setData(database[0].prostheticsInfo)
+                    mAdapter.prostheticsListUpdate(database[0].prostheticsInfo)
                 }
             }
         }

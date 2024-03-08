@@ -41,10 +41,19 @@ class HomeProsAdapter : RecyclerView.Adapter<HomeProsAdapter.HomeProsViewHolder>
         return prosthetics.size
     }
 
+    fun prostheticsListUpdate(newProsthetics : List<ProstheticsInfoItem>) {
+        prosthetics.clear()
+        prosthetics.addAll(newProsthetics)
+        notifyDataSetChanged()
+    }
+
+    /*
     fun setData(newData: ProstheticsInfo) {
         val prostheticsInfoDiffUtil = ProstheticsDiffUtil(prosthetics, newData)
         val diffUtilResult = DiffUtil.calculateDiff(prostheticsInfoDiffUtil)
         prosthetics = (newData)
         diffUtilResult.dispatchUpdatesTo(this)
     }
+
+     */
 }
