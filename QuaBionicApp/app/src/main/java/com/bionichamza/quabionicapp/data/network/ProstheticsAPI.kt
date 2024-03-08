@@ -24,6 +24,11 @@ interface ProstheticsAPI {
         @QueryMap queries : Map<String, String>
     ) : Response<Prosthetics>
 
+    @GET("/biyonikhamza/@uaBionicApp/main/prostheticsInfo.json")
+    suspend fun searchProstheticsInfo(
+        @QueryMap searchQuery : Map<String , String>
+    ) : Response<ProstheticsInfo>
+
     @GET("/biyonikhamza/QuaBionicApp/main/Prosthetics.json")
     suspend fun searchProsthetics(
         @QueryMap searchQuery: Map<String , String>

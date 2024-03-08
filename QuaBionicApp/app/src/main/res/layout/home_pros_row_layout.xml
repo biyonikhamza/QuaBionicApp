@@ -7,7 +7,7 @@
     <data>
         <variable
             name="prostheticsInfos"
-            type="com.bionichamza.quabionicapp.models.ProstheticsInfo"/>
+            type="com.bionichamza.quabionicapp.models.ProstheticsInfoItem"/>
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -56,6 +56,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/home_pros_imageView"
                     app:layout_constraintTop_toTopOf="parent"
+                    android:text="@{prostheticsInfos.kneeJoints}"
                     />
 
                 <TextView
@@ -67,6 +68,7 @@
                     app:layout_constraintEnd_toEndOf="@id/home_pros_textView"
                     app:layout_constraintStart_toStartOf="@+id/home_pros_textView"
                     app:layout_constraintTop_toBottomOf="@+id/home_pros_textView"
+                    android:text="@{prostheticsInfos.carbonFoot}"
                     />
                 
                 <TextView
@@ -77,6 +79,7 @@
                     app:layout_constraintEnd_toEndOf="@id/home_pros_textView2"
                     app:layout_constraintStart_toStartOf="@id/home_pros_textView2"
                     app:layout_constraintTop_toBottomOf="@id/home_pros_textView2"
+                    android:text="@{prostheticsInfos.prostheticFoot}"
                     />
 
                 <TextView
@@ -88,7 +91,9 @@
                     app:layout_constraintEnd_toEndOf="@id/home_pros_textView3"
                     app:layout_constraintStart_toStartOf="@id/home_pros_textView3"
                     app:layout_constraintTop_toBottomOf="@id/home_pros_textView3"
-                    app:layout_constraintBottom_toBottomOf="parent" />
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="@{prostheticsInfos.siliconeLiners}"
+                    />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
