@@ -13,7 +13,6 @@ import android.widget.SearchView
 import android.widget.Toast
 import androidx.core.view.MenuHost
 import androidx.core.view.MenuProvider
-import androidx.core.view.isVisible
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
@@ -115,10 +114,10 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
 
     private fun readDatabase(){
         lifecycleScope.launch {
-            mainViewModel.readProsthetics.observeOnce(viewLifecycleOwner) { database->
+            mainViewModel.readProstheticsInfo.observeOnce(viewLifecycleOwner) { database->
                 if (database.isNotEmpty() && dataRequested) {
                     Log.d("HomeProsFragment" , "readDatabase called")
-                    mAdapter.setData(database[0].prosthetics)
+                    mAdapter.setData(database[0].prostheticsInfo)
                 }
                 else{
                     Log.d("HomeProsFragment" , "requestApi called")
@@ -133,11 +132,11 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
 
     private fun requestApiData() {
         Log.d("ProstheticsFragment" ,"requestApiCalled")
-        mainViewModel.getProsthetics(prostheticsViewModel.applyQueries())
+        mainViewModel.getProstheticsInfo(prostheticsViewModel.applyQueries())
         mainViewModel.prostheticsResponse.observe(viewLifecycleOwner) { response ->
             when(response) {
                 is NetworkResult.Success -> {
-                    response.data?.let { mAdapter.setData(it) }
+                    //response.data?.let { mAdapter.setData(it) }
                 }
                 is NetworkResult.Error -> {
                     Toast.makeText(
@@ -157,7 +156,7 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
             when(response) {
                 is NetworkResult.Success -> {
                     val prosthetics = response.data
-                    prosthetics?.let { mAdapter.setData(it) }
+                    //prosthetics?.let { mAdapter.setData(it) }
                 }
                 is NetworkResult.Error -> {
                     loadDataFromCache()
@@ -174,9 +173,9 @@ class HomeBioFragment : Fragment(), SearchView.OnQueryTextListener {
 
     private fun loadDataFromCache() {
         lifecycleScope.launch {
-            mainViewModel.readProsthetics.observe(viewLifecycleOwner) { database ->
+            mainViewModel.readProstheticsInfo.observe(viewLifecycleOwner) { database ->
                 if (database.isNotEmpty()) {
-                    mAdapter.setData(database[0].prosthetics)
+                    mAdapter.setData(database[0].prostheticsInfo)
                 }
             }
         }

@@ -2,29 +2,27 @@ package com.bionichamza.quabionicapp.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.bionichamza.quabionicapp.models.Prosthetics
+import coil.load
 import com.bionichamza.quabionicapp.models.ProstheticsInfo
 import com.example.quabionicapp.databinding.HomeProsRowLayoutBinding
 import com.bionichamza.quabionicapp.util.ProstheticsDiffUtil
+import com.example.quabionicapp.R
 
 class HomeProsAdapter : RecyclerView.Adapter<HomeProsAdapter.HomeProsViewHolder>() {
 
-    private var prosthetics = emptyList<Prosthetics>()
+    private var prosthetics = emptyList<ProstheticsInfo>()
 
-    class HomeProsViewHolder(private val binding: HomeProsRowLayoutBinding) :
-        RecyclerView.ViewHolder(binding.root) {
-        fun bind(prostheticsInfo: Prosthetics) {
-            binding.result = prostheticsInfo
-            binding.executePendingBindings()
-        }
+    class HomeProsViewHolder(var view: HomeProsRowLayoutBinding) :
+        RecyclerView.ViewHolder(view.root) {
 
         companion object {
             fun from(parent : ViewGroup) : HomeProsViewHolder {
                 val layoutInflater = LayoutInflater.from(parent.context)
-                val binding = HomeProsRowLayoutBinding.inflate(layoutInflater , parent, false)
-                return HomeProsViewHolder(binding)
+                val view = DataBindingUtil.inflate<HomeProsRowLayoutBinding>(layoutInflater , R.layout.home_pros_row_layout , parent ,false)
+                return HomeProsViewHolder(view)
             }
         }
 
@@ -35,18 +33,17 @@ class HomeProsAdapter : RecyclerView.Adapter<HomeProsAdapter.HomeProsViewHolder>
     }
 
     override fun onBindViewHolder(holder: HomeProsViewHolder, position: Int) {
-        val currentProsthetics = prosthetics[position]
-        holder.bind(currentProsthetics)
+        holder.view.prostheticsInfos = prosthetics[position]
     }
 
     override fun getItemCount(): Int {
         return prosthetics.size
     }
 
-    fun setData(newData: Prosthetics) {
-        val prostheticsDiffUtil = ProstheticsDiffUtil(prosthetics, newData.results)
-        val diffUtilResult = DiffUtil.calculateDiff(prostheticsDiffUtil)
-        prosthetics = newData.results
+    fun setData(newData: ProstheticsInfo) {
+        val prostheticsInfoDiffUtil = ProstheticsDiffUtil(prosthetics, newData)
+        val diffUtilResult = DiffUtil.calculateDiff(prostheticsInfoDiffUtil)
+        prosthetics = listOf(newData)
         diffUtilResult.dispatchUpdatesTo(this)
     }
 }

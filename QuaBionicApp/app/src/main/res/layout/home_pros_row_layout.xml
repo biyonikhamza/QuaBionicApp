@@ -6,7 +6,7 @@
 
     <data>
         <variable
-            name="result"
+            name="prostheticsInfos"
             type="com.bionichamza.quabionicapp.models.ProstheticsInfo"/>
     </data>
 

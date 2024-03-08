@@ -6,9 +6,10 @@ import androidx.room.TypeConverters
 import com.bionichamza.quabionicapp.data.database.entities.FavoriteEntity
 import com.bionichamza.quabionicapp.data.database.entities.InspirationEntity
 import com.bionichamza.quabionicapp.data.database.entities.ProstheticsEntity
+import com.bionichamza.quabionicapp.data.database.entities.ProstheticsInfoEntity
 
 @Database(
-    entities = [ProstheticsEntity::class , FavoriteEntity::class , InspirationEntity::class],
+    entities = [ProstheticsEntity::class , FavoriteEntity::class , InspirationEntity::class , ProstheticsInfoEntity::class],
     version = 1,
     exportSchema = false
 )
