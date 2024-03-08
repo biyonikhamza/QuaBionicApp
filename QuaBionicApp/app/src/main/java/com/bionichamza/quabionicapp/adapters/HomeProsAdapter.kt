@@ -6,18 +6,16 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bionichamza.quabionicapp.models.Prosthetics
 import com.bionichamza.quabionicapp.models.ProstheticsInfo
-import com.bionichamza.quabionicapp.models.ProstheticsInfoResult
-import com.bionichamza.quabionicapp.models.ProstheticsInfoS
 import com.example.quabionicapp.databinding.HomeProsRowLayoutBinding
 import com.bionichamza.quabionicapp.util.ProstheticsDiffUtil
 
 class HomeProsAdapter : RecyclerView.Adapter<HomeProsAdapter.HomeProsViewHolder>() {
 
-    private var prosthetics = emptyList<ProstheticsInfo>()
+    private var prosthetics = emptyList<Prosthetics>()
 
     class HomeProsViewHolder(private val binding: HomeProsRowLayoutBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(prostheticsInfo: ProstheticsInfo) {
+        fun bind(prostheticsInfo: Prosthetics) {
             binding.result = prostheticsInfo
             binding.executePendingBindings()
         }
@@ -45,10 +43,10 @@ class HomeProsAdapter : RecyclerView.Adapter<HomeProsAdapter.HomeProsViewHolder>
         return prosthetics.size
     }
 
-    fun setData(newData: ProstheticsInfo) {
-        val prostheticsDiffUtil = ProstheticsDiffUtil(prosthetics, newData.prostheticsInfoResults)
+    fun setData(newData: Prosthetics) {
+        val prostheticsDiffUtil = ProstheticsDiffUtil(prosthetics, newData.results)
         val diffUtilResult = DiffUtil.calculateDiff(prostheticsDiffUtil)
-        //prosthetics = newData.prostheticsInfoResults
+        prosthetics = newData.results
         diffUtilResult.dispatchUpdatesTo(this)
     }
 }
