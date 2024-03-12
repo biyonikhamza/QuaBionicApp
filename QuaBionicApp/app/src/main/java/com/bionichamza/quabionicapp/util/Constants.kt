@@ -5,7 +5,7 @@ class Constants {
     // https://raw.githubusercontent.com/biyonikhamza/QuaBionicApp/main/Prosthetics.json?token=GHSAT0AAAAAACNXUXVLPYNHEDHMVCPQSNBYZPFYQIA
     companion object{
 
-        const val BASE_URL = "https://raw.githubusercontent.com"
+        const val BASE_URL = "https://raw.githubusercontent.com/"
         const val API_KEY = ""
 
         // Room Database

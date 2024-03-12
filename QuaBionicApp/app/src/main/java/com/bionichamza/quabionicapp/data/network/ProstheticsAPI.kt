@@ -14,28 +14,28 @@ interface ProstheticsAPI {
     // Url -> biyonikhamza/QuaBionicApp/main/Prosthetics.json
     // Base-URl -> https://raw.githubusercontent.com/
 
-    @GET("/biyonikhamza/@uaBionicApp/main/prostheticsInfo.json")
+    @GET("biyonikhamza/@uaBionicApp/main/prostheticsInfo.json")
     suspend fun getProstheticsInfo(
         @QueryMap queries : Map<String , String>
     ) : Response<ProstheticsInfo>
 
-    @GET("/biyonikhamza/QuaBionicApp/main/Prosthetics.json")
+    @GET("biyonikhamza/QuaBionicApp/main/Prosthetics.json")
     suspend fun getProsthetics(
         @QueryMap queries : Map<String, String>
     ) : Response<Prosthetics>
 
-    @GET("/biyonikhamza/@uaBionicApp/main/prostheticsInfo.json")
+    @GET("biyonikhamza/@uaBionicApp/main/prostheticsInfo.json")
     suspend fun searchProstheticsInfo(
         @QueryMap searchQuery : Map<String , String>
     ) : Response<ProstheticsInfo>
 
-    @GET("/biyonikhamza/QuaBionicApp/main/Prosthetics.json")
+    @GET("biyonikhamza/QuaBionicApp/main/Prosthetics.json")
     suspend fun searchProsthetics(
         @QueryMap searchQuery: Map<String , String>
     ) : Response<Prosthetics>
 
-    @GET("/biyonikhamza/QuaBionicApp/main/Prosthetics.json")
+    @GET("biyonikhamza/QuaBionicApp/main/Prosthetics.json")
     suspend fun getInspiration(
-        @Query("token") token: JsonToken
+        @QueryMap queries: Map<String, String>
     ):Response<InspirationWord>
 }

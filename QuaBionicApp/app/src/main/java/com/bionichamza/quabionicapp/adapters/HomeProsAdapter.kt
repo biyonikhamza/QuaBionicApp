@@ -3,13 +3,9 @@ package com.bionichamza.quabionicapp.adapters
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import coil.load
-import com.bionichamza.quabionicapp.models.ProstheticsInfo
 import com.bionichamza.quabionicapp.models.ProstheticsInfoItem
 import com.example.quabionicapp.databinding.HomeProsRowLayoutBinding
-import com.bionichamza.quabionicapp.util.ProstheticsDiffUtil
 import com.example.quabionicapp.R
 
 class HomeProsAdapter : RecyclerView.Adapter<HomeProsAdapter.HomeProsViewHolder>() {
