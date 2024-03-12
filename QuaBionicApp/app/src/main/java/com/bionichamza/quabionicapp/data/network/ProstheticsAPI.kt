@@ -36,6 +36,6 @@ interface ProstheticsAPI {
 
     @GET("biyonikhamza/QuaBionicApp/main/Prosthetics.json")
     suspend fun getInspiration(
-        @Query("token") token: JsonToken
+        @QueryMap queries: Map<String, String>
     ):Response<InspirationWord>
 }

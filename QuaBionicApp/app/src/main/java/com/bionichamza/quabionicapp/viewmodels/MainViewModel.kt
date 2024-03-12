@@ -87,8 +87,8 @@ class MainViewModel @Inject constructor(
         searchProstheticsSafeCall(searchQuery)
     }
 
-    fun getInspiration(token: JsonToken) = viewModelScope.launch {
-        getInspirationSafeCall(token)
+    fun getInspiration(queries: Map<String, String>) = viewModelScope.launch {
+        getInspirationSafeCall(queries)
     }
 
     private suspend fun getProstheticsInfoSafeCall(queries : Map<String , String>) {
@@ -156,11 +156,11 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    private suspend fun getInspirationSafeCall(token: JsonToken) {
+    private suspend fun getInspirationSafeCall(queries: Map<String, String>) {
         inspirationResponse.value = NetworkResult.Loading()
         if (hasInternetConnection()){
             try {
-                val response = repository.remote.getInspiration(token)
+                val response = repository.remote.getInspiration(queries)
                 inspirationResponse.value = handleInspirationResponse(response)
 
                 val inspiration = inspirationResponse.value!!.data

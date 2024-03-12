@@ -27,8 +27,8 @@ class RemoteDataSource @Inject constructor(
         return prostheticsAPI.searchProsthetics(searchQuery)
     }
 
-    suspend fun getInspiration(token: JsonToken) : Response<InspirationWord> {
-        return prostheticsAPI.getInspiration(token)
+    suspend fun getInspiration(queries: Map<String, String>) : Response<InspirationWord> {
+        return prostheticsAPI.getInspiration(queries)
     }
 
 }
